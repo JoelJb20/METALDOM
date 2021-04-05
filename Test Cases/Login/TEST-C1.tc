@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>HAREMOS UN LOGIN EN LA PLATAFORMA USANDO
+USUARIO: VALIDO
+PASSWORD : VALIDO</description>
+   <name>TEST-C1</name>
+   <tag>LOGIN VALIDO</tag>
+   <comment></comment>
+   <testCaseGuid>66199516-8e2d-4b68-ac5e-c6b23a6926fd</testCaseGuid>
+</TestCaseEntity>

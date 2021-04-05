@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>QA-JOEL</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('LOGIN_DATA/LOGIN_DATA').getValue(1, 1)</initValue>
+      <name>USER_VAL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('LOGIN_DATA/LOGIN_DATA').getValue(2, 1)</initValue>
+      <name>PASS_VAL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('LOGIN_DATA/LOGIN_DATA').getValue(1, 3)</initValue>
+      <name>INV_USER</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('LOGIN_DATA/LOGIN_DATA').getValue(2, 4)</initValue>
+      <name>INV_PASS</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
