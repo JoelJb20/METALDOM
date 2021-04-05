@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>VAMOS A VERIFICAR QUE DESPUES DEL LOGIN NOS REDIRECCIONE A LA PAGINA DE INICIO DONDE VAMOS A VERIFICAR LOS ELEMENTOS QUE LA COMPONEN.</description>
+   <name>TEST-C-INICIO-1</name>
+   <tag>INICIO</tag>
+   <comment></comment>
+   <testCaseGuid>dd2c8140-c12c-4e6c-8c30-f2289cc0245c</testCaseGuid>
+</TestCaseEntity>
