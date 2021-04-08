@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_S_mdi mdi-calendar-today</name>
+   <tag></tag>
+   <elementGuidId>849094af-5f74-4477-8148-219717742add</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mail-app']/div/div/div/div/section/div/div/form/div/div[2]/div[4]/section/div/div/div/button/span/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mdi mdi-calendar-today</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mail-app&quot;)/div[@class=&quot;column is-10 messages hero is-fullheight&quot;]/div[@class=&quot;card gray-container&quot;]/div[@class=&quot;card-content&quot;]/div[1]/section[1]/div[@class=&quot;card&quot;]/div[@class=&quot;section&quot;]/form[1]/div[@class=&quot;columns is-multiline&quot;]/div[@class=&quot;column is-6&quot;]/div[@class=&quot;column&quot;]/section[1]/div[@class=&quot;field&quot;]/div[@class=&quot;field-body&quot;]/div[@class=&quot;field has-addons&quot;]/button[@class=&quot;button is-medium is-primary&quot;]/span[@class=&quot;icon is-small&quot;]/i[@class=&quot;mdi mdi-calendar-today&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mail-app']/div/div/div/div/section/div/div/form/div/div[2]/div[4]/section/div/div/div/button/span/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/section/div/div/div/button/span/i</value>
+   </webElementXpaths>
+</WebElementEntity>

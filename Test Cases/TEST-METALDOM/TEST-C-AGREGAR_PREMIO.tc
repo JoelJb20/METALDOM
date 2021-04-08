@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>NAVEGAREMOS A LA PANTALLA DE “CONFIGURACIONES DE PREMIO”EN LA CUAL AGREGAREMOS UN PREMIO Y VALIDAREMOS QUE SE AGREGUE CORRECTAMENTE</description>
+   <name>TEST-C-AGREGAR_PREMIO</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2b57e2ee-61b2-486f-866b-6026ffff2bb2</testCaseGuid>
+</TestCaseEntity>

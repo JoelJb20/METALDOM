@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>EMAIL_LOGIN</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>363771ca-9269-4c6a-8a6d-25feeb5f7152</dataFileGUID>
+   <dataSourceUrl>C:\Users\joel_\OneDrive\Escritorio\SOLVEX\TEST_METALDOM\DATA_TEST_C_LOGIN_CORREO_CEDULA.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Hoja1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

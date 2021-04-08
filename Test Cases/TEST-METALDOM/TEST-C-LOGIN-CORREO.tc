@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Haremos un log in contando con: usuario (EMAIL) y contraseña válidos.</description>
+   <name>TEST-C-LOGIN-CORREO</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c4bf2a80-b6ae-4002-a8a7-af3760d7af5a</testCaseGuid>
+</TestCaseEntity>

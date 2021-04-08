@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_AP10,000_check dafaut</name>
+   <tag></tag>
+   <elementGuidId>b1235ddd-885a-4cc4-b18c-dab69aac8499</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mail-app']/div/div/div/div/section/div/div/form/div/div/article/div[2]/div/div/div/div/div[3]/label/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>check dafaut</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mail-app&quot;)/div[@class=&quot;column is-10 messages hero is-fullheight&quot;]/div[@class=&quot;card gray-container&quot;]/div[@class=&quot;card-content&quot;]/div[1]/section[1]/div[1]/div[@class=&quot;section&quot;]/form[1]/div[@class=&quot;tile is-ancestor&quot;]/div[@class=&quot;tile is-parent&quot;]/article[@class=&quot;tile is-child&quot;]/div[@class=&quot;columns&quot;]/div[@class=&quot;column is-6&quot;]/div[@class=&quot;field&quot;]/div[@class=&quot;field-body&quot;]/div[@class=&quot;field has-addons&quot;]/div[@class=&quot;field column is-4&quot;]/label[@class=&quot;b-radio radio is-large&quot;]/span[@class=&quot;check dafaut&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mail-app']/div/div/div/div/section/div/div/form/div/div/article/div[2]/div/div/div/div/div[3]/label/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/label/span</value>
+   </webElementXpaths>
+</WebElementEntity>

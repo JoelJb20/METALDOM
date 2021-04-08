@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>HAREMOS UNA CONFIGURACION DE LOS PUNTOS QUE RECIBIRAN LOS CLIENTES POR TONELADAS</description>
+   <name>TEST-C-CONFIGURAR_PUNTOS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>32cd2ee8-b122-43d5-95bc-efb938759512</testCaseGuid>
+</TestCaseEntity>

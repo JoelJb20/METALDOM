@@ -4,4 +4,84 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('DATA METALDOM/EMAIL_LOGIN').getValue(1, 1)</initValue>
+      <name>USER_EMAIL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('DATA METALDOM/EMAIL_LOGIN').getValue(2, 1)</initValue>
+      <name>PASS_EMAIL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('DATA METALDOM/CEDULA_LOGIN').getValue(1, 1)</initValue>
+      <name>USER_CEDULA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('DATA METALDOM/CEDULA_LOGIN').getValue(2, 1)</initValue>
+      <name>PASS_CEDULA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('DATA METALDOM/TIPOS_PREMIOS').getValue(1, 1)</initValue>
+      <name>NOMBRE_TIPO_PREMIO</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('DATA METALDOM/TIPOS_PREMIOS').getValue(2, 1)</initValue>
+      <name>DESCRIPCION_TIPO_PREMIO</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('DATA METALDOM/AGREGAR_PREMIOS').getValue(1, 1)</initValue>
+      <name>PREMIO_NOMBRE</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('DATA METALDOM/AGREGAR_PREMIOS').getValue(2, 1)</initValue>
+      <name>PREMIO_DESCRIPCION</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('DATA METALDOM/AGREGAR_PREMIOS').getValue(3, 1)</initValue>
+      <name>PREMIO_PUNTOS_REQ</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('DATA METALDOM/AGREGAR_PREMIOS').getValue(5, 1)</initValue>
+      <name>PREMIO_DISPONIBLES</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('DATA METALDOM/IMAGEN').getValue(1, 1)</initValue>
+      <name>IMAGEN</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('DATA METALDOM/CONFIGURAR_PUNTOS').getValue(1, 1)</initValue>
+      <name>PUNTOS_NOMBRE</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('DATA METALDOM/CONFIGURAR_PUNTOS').getValue(2, 1)</initValue>
+      <name>PUNTOS_DESCRIPCION</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('DATA METALDOM/CONFIGURAR_PUNTOS').getValue(3, 1)</initValue>
+      <name>PUNTOS_VALOR</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('DATA METALDOM/CONFIGURAR_PUNTOS').getValue(4, 1)</initValue>
+      <name>PUNTOS_TONELADAS</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('DATA METALDOM/CONFIGURAR_PUNTOS').getValue(6, 1)</initValue>
+      <name>PUNTOS_TIPOS_EXP</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -21,9 +21,9 @@ WebUI.callTestCase(findTestCase('Login/TEST-C1'), [:], FailureHandling.STOP_ON_F
 
 WebUI.waitForPageLoad(5)
 
-WebUI.click(findTestObject('INICIO/Page_base-fe/a_Inicio'))
+//WebUI.click(findTestObject('INICIO/Page_base-fe/a_Inicio'))
 
-WebUI.click(findTestObject('INICIO/Page_base-fe/span_Inicio'))
+//WebUI.click(findTestObject('INICIO/Page_base-fe/span_Inicio'))
 
 WebUI.verifyElementPresent(findTestObject('INICIO/Page_base-fe/img'), 0)
 
