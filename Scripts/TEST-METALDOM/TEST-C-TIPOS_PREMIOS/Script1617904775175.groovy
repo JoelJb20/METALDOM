@@ -32,18 +32,27 @@ WebUI.click(findTestObject('METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/span_Tipos de
 WebUI.delay(2)
 
 
-
-WebUI.click(findTestObject('METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/a_Agregar'))
-
-WebUI.focus(findTestObject('METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/input_Nombre_name'))
-
-WebUI.setText(findTestObject('METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/input_Nombre_name'), GlobalVariable.NOMBRE_TIPO_PREMIO)
-
-WebUI.focus(findTestObject('METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/input_Descripcin_description'))
-
-WebUI.setText(findTestObject('METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/input_Descripcin_description'), GlobalVariable.DESCRIPCION_TIPO_PREMIO)
-
-WebUI.click(findTestObject('METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/button_Guardar'))
+for (def rowdata = 1; rowdata <= findTestData('Data Files/DATA METALDOM/TIPOS_PREMIOS').getRowNumbers(); rowdata++) {
+	
+		
+	WebUI.click(findTestObject('METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/a_Agregar'))
+	
+	WebUI.focus(findTestObject('METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/input_Nombre_name'))
+	
+	WebUI.setText(findTestObject('METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/input_Nombre_name'), findTestData('Data Files/DATA METALDOM/TIPOS_PREMIOS').getValue(1, rowdata))
+	
+	WebUI.focus(findTestObject('METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/input_Descripcin_description'))
+	
+	WebUI.setText(findTestObject('METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/input_Descripcin_description'),  findTestData('Data Files/DATA METALDOM/TIPOS_PREMIOS').getValue(2, rowdata))
+	
+	WebUI.delay(3)
+	
+	WebUI.click(findTestObject('METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/button_Guardar'))
+	
+	WebUI.delay(3)
+	
+	
+}
 
 
 

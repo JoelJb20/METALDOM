@@ -50,7 +50,7 @@ WebUI.focus(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/inp
 WebUI.setText(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Valor de Toneladas_tonsValue'), GlobalVariable.PUNTOS_TONELADAS)
 
 WebUI.selectOptionByIndex(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/select_Tipos de espiracin  Vencimiento por das  Vencimiento por meses  Vencimiento por aos'), 
-    1)
+    2)
 
 WebUI.focus(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Valor de tipo de expiracion_expirationTypeValue'))
 
@@ -59,7 +59,7 @@ WebUI.setText(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/i
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/button_S_button is-medium is-primary'))
+//WebUI.click(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/button_S_button is-medium is-primary'))
 
 WebUI.delay(4)
 

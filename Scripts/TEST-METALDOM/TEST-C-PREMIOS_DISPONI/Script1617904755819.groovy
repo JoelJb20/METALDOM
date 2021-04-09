@@ -31,7 +31,7 @@ WebUI.scrollToPosition(0, 10)
 
 WebUI.click(findTestObject('METALDOM_OR/PREMIOS_DISPONIBLES/Page_base-fe/span_Premios disponibles'))
 
-WebUI.scrollToPosition(0, 20)
+WebUI.scrollToPosition(0, 35)
 
 WebUI.click(findTestObject('METALDOM_OR/PREMIOS_DISPONIBLES/Page_base-fe/button_Canjear'))
 
@@ -39,7 +39,7 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('METALDOM_OR/PREMIOS_DISPONIBLES/Page_base-fe/button_Si'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.closeBrowser()
 
