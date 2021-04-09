@@ -6,11 +6,11 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>bc9b988a-e2ad-4ca6-b811-a2889d05bbcc</dataFileGUID>
-   <dataSourceUrl></dataSourceUrl>
+   <dataSourceUrl>C:\Users\joel_\OneDrive\Escritorio\SOLVEX\PREMIOS_BUSCAR.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName></sheetName>
+   <sheetName>Hoja1</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

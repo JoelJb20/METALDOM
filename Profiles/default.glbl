@@ -84,4 +84,9 @@
       <initValue>findTestData('DATA METALDOM/CONFIGURAR_PUNTOS').getValue(6, 1)</initValue>
       <name>PUNTOS_TIPOS_EXP</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('DATA METALDOM/BUSQUEDA_PREMIOS').getValue(1, 1)</initValue>
+      <name>BUSCADOR_PREMIOS</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

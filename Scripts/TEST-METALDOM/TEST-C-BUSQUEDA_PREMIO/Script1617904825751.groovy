@@ -17,3 +17,42 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('TEST-METALDOM/TEST-C-LOGIN-CORREO'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForPageLoad(0)
+
+WebUI.delay(3)
+
+WebUI.verifyElementPresent(findTestObject('METALDOM_OR/BUSCADOR/Page_base-fe/span_Configuraciones de Premios'), 0)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('METALDOM_OR/BUSCADOR/Page_base-fe/span_Configuraciones de Premios'))
+
+for (def rowdata = 1; rowdata <= findTestData('Data Files/DATA METALDOM/BUSQUEDA_PREMIOS').getRowNumbers(); rowdata++) {
+    WebUI.waitForPageLoad(0)
+
+    WebUI.scrollToPosition(0, 15)
+
+    WebUI.verifyElementPresent(findTestObject('METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium'), 
+        0)
+
+    WebUI.focus(findTestObject('METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium'))
+
+    WebUI.setText(findTestObject('Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium'), 
+        findTestData('Data Files/DATA METALDOM/BUSQUEDA_PREMIOS').getValue(1, rowdata))
+
+    WebUI.delay(3)
+
+    WebUI.sendKeys(findTestObject('METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium'), Keys.chord(
+            Keys.ENTER))
+
+    WebUI.scrollToPosition(0, 20)
+
+    WebUI.delay(3)
+
+    WebUI.refresh()
+}
+
+WebUI.delay(3)
+
