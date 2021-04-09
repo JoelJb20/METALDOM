@@ -33,61 +33,61 @@ WebUI.click(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/span_Conf
 WebUI.delay(3)
 
 for (def rowdata = 1; rowdata <= findTestData('Data Files/DATA METALDOM/AGREGAR_PREMIOS').getRowNumbers(); rowdata++) {
-	
+    WebUI.click(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/a_Agregar'))
 
+    WebUI.scrollToPosition(0, 15)
 
-WebUI.click(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/a_Agregar'))
+    WebUI.verifyElementPresent(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name'), 0)
 
-WebUI.scrollToPosition(0, 15)
+    WebUI.verifyElementPresent(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description'), 
+        0)
 
-WebUI.verifyElementPresent(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name'), 0)
+    WebUI.verifyElementPresent(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints'), 
+        0)
 
-WebUI.verifyElementPresent(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description'), 0)
+    WebUI.verifyElementPresent(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/select_Premio para proveedores excelentes  Premios clientes Premium'), 
+        0)
 
-WebUI.verifyElementPresent(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints'), 
-    0)
+    WebUI.verifyElementPresent(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available'), 
+        0)
 
-WebUI.verifyElementPresent(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/select_Premio para proveedores excelentes  Premios clientes Premium'), 
-    0)
+    WebUI.verifyElementPresent(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/span_Subir foto del premio'), 
+        0)
 
-WebUI.verifyElementPresent(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available'), 0)
+    WebUI.scrollToElement(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available'), 0)
 
-WebUI.verifyElementPresent(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/span_Subir foto del premio'), 0)
+    WebUI.focus(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name'))
 
-WebUI.scrollToElement(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available'), 0)
+    WebUI.setText(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name'), findTestData('Data Files/DATA METALDOM/AGREGAR_PREMIOS').getValue(
+            1, rowdata))
 
-WebUI.focus(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name'))
+    WebUI.focus(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description'))
 
-WebUI.setText(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name'), findTestData('Data Files/DATA METALDOM/AGREGAR_PREMIOS').getValue(1,rowdata))
+    WebUI.setText(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description'), findTestData(
+            'Data Files/DATA METALDOM/AGREGAR_PREMIOS').getValue(2, rowdata))
 
-WebUI.focus(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description'))
+    WebUI.focus(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints'))
 
-WebUI.setText(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description'), findTestData('Data Files/DATA METALDOM/AGREGAR_PREMIOS').getValue(2,rowdata))
+    WebUI.setText(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints'), findTestData(
+            'Data Files/DATA METALDOM/AGREGAR_PREMIOS').getValue(3, rowdata))
 
-WebUI.focus(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints'))
+    WebUI.selectOptionByIndex(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/select_Premio para proveedores excelentes  Premios clientes Premium'), 
+        findTestData('DATA METALDOM/AGREGAR_PREMIOS').getValue(4, rowdata))
 
-WebUI.setText(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints'),findTestData('Data Files/DATA METALDOM/AGREGAR_PREMIOS').getValue(3,rowdata))
+    WebUI.focus(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available'))
 
-WebUI.selectOptionByIndex(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/select_Premio para proveedores excelentes  Premios clientes Premium'), 
-    1)
+    WebUI.setText(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available'), findTestData(
+            'Data Files/DATA METALDOM/AGREGAR_PREMIOS').getValue(5, rowdata))
 
-WebUI.focus(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available'))
+    //WebUI.uploadFile(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/span_Subir foto del premio'), GlobalVariable.IMAGEN)
+    WebUI.delay(3)
 
-WebUI.setText(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available'), findTestData('Data Files/DATA METALDOM/AGREGAR_PREMIOS').getValue(5,rowdata))
+    WebUI.click(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/button_Guardar'))
 
-//WebUI.uploadFile(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/span_Subir foto del premio'), GlobalVariable.IMAGEN)
+    WebUI.back()
 
-WebUI.delay(3)
-
-WebUI.click(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/button_Guardar'))
-
-WebUI.back()
-
-
-WebUI.refresh()
-
+    WebUI.refresh()
 }
-
 
 WebUI.click(findTestObject('Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/span_Configuraciones de Premios'))
 

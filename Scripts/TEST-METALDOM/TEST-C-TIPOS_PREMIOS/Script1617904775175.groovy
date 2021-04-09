@@ -52,9 +52,10 @@ for (def rowdata = 1; rowdata <= findTestData('Data Files/DATA METALDOM/TIPOS_PR
 	WebUI.delay(3)
 	
 	
+	
 }
 
-
+WebUI.click(findTestObject('Object Repository/METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/span_Tipos de Premios'))
 
 WebUI.delay(4)
 

@@ -40,3 +40,5 @@ WebUI.click(findTestObject('METALDOM_LOGIN/Page_Sign in/button_Iniciar sesin'))
 
 WebUI.waitForPageLoad(3)
 
+WebUI.delay(2)
+
