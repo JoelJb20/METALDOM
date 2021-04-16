@@ -29,34 +29,53 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/span_Configuraciones de Puntos'))
 
+
+//PARA AGREGRAR UNA SOLA CONFIGURACION SIN EL CICLO FOR
+
+//------------------------------------------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------------------------------------------------------
+
+
+/*
 WebUI.click(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/a_Agregar'))
 
-WebUI.scrollToElement(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Valor de Toneladas_tonsValue'), 
-    0)
+WebUI.scrollToElement(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Valor de Toneladas_tonsValue'),
+	0)
 
 WebUI.focus(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Nombre_name'))
 
 WebUI.setText(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Nombre_name'), GlobalVariable.PUNTOS_NOMBRE)
 
+
+
 WebUI.focus(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Descripcin_description'))
 
 WebUI.setText(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Descripcin_description'), GlobalVariable.PUNTOS_DESCRIPCION)
+
 
 WebUI.focus(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Valor de Puntos_pointsValue'))
 
 WebUI.setText(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Valor de Puntos_pointsValue'), GlobalVariable.PUNTOS_VALOR)
 
+
+
 WebUI.focus(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Valor de Toneladas_tonsValue'))
 
 WebUI.setText(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Valor de Toneladas_tonsValue'), GlobalVariable.PUNTOS_TONELADAS)
 
-WebUI.selectOptionByIndex(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/select_Tipos de espiracin  Vencimiento por das  Vencimiento por meses  Vencimiento por aos'), 
-    2)
+
+WebUI.selectOptionByIndex(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/select_Tipos de espiracin  Vencimiento por das  Vencimiento por meses  Vencimiento por aos'),
+	2)
 
 WebUI.focus(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Valor de tipo de expiracion_expirationTypeValue'))
 
-WebUI.setText(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Valor de tipo de expiracion_expirationTypeValue'), 
-    GlobalVariable.PruebaPuntosExp)
+WebUI.setText(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Valor de tipo de expiracion_expirationTypeValue'),
+	GlobalVariable.PruebaPuntosExp)
 
 WebUI.delay(3)
 
@@ -87,13 +106,108 @@ WebUI.click(findTestObject('PRUEBA DATEPICKER/diafin'))
 
 //PRUEBA DATEPICKER
 
+*/
+
+//-------------------------------------------------------------------------------------------------------------------------------------
+//-------------------------------------------------------------------------------------------------------------------------------------
+//-------------------------------------------------------------------------------------------------------------------------------------
+//-------------------------------------------------------------------------------------------------------------------------------------
+//-------------------------------------------------------------------------------------------------------------------------------------
+//-------------------------------------------------------------------------------------------------------------------------------------
+//-------------------------------------------------------------------------------------------------------------------------------------
+//-------------------------------------------------------------------------------------------------------------------------------------
+//-------------------------------------------------------------------------------------------------------------------------------------
 
 
-WebUI.delay(4)
 
-WebUI.delay(3)
+
+//CICLO ("FOR") PARA CUANDO QUEREMOS AGREGAR MAS DE UNA CONFIGURACION DE PUNTOS
+
+
+for (def rowdata = 1 ; rowdata <= findTestData('Data Files/DATA METALDOM/CONFIGURAR_PUNTOS').getRowNumbers(); rowdata++) {
+	
+	
+
+WebUI.click(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/a_Agregar'))
+
+WebUI.scrollToElement(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Valor de Toneladas_tonsValue'), 
+    0)
+
+
+WebUI.focus(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Nombre_name'))
+
+WebUI.setText(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Nombre_name'), findTestData('Data Files/DATA METALDOM/CONFIGURAR_PUNTOS').getValue(
+            1, rowdata))
+
+
+WebUI.focus(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Descripcin_description'))
+
+WebUI.setText(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Descripcin_description'),  findTestData('Data Files/DATA METALDOM/CONFIGURAR_PUNTOS').getValue(
+			2, rowdata))
+
+
+WebUI.focus(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Valor de Puntos_pointsValue'))
+
+WebUI.setText(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Valor de Puntos_pointsValue'), findTestData('Data Files/DATA METALDOM/CONFIGURAR_PUNTOS').getValue(
+        	3, rowdata))
+
+
+
+WebUI.focus(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Valor de Toneladas_tonsValue'))
+
+WebUI.setText(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Valor de Toneladas_tonsValue'), findTestData('Data Files/DATA METALDOM/CONFIGURAR_PUNTOS').getValue(
+	       4, rowdata))
+
+
+
+WebUI.selectOptionByIndex(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/select_Tipos de espiracin  Vencimiento por das  Vencimiento por meses  Vencimiento por aos'),findTestData('Data Files/DATA METALDOM/CONFIGURAR_PUNTOS').getValue(
+			5, rowdata))
+
+
+WebUI.focus(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Valor de tipo de expiracion_expirationTypeValue'))
+
+WebUI.setText(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Valor de tipo de expiracion_expirationTypeValue'),findTestData('Data Files/DATA METALDOM/CONFIGURAR_PUNTOS').getValue(
+	      6, rowdata))
+
+WebUI.delay(2)
+
+
+
+
+// DATE PICKER
+
+//PRIMERA PARTE NOS SELECCIONA LA FECHA DE "INICIO DE EFECTIVIDAD"
+WebUI.click(findTestObject('Object Repository/PRUEBA DATEPICKER/FECHA'))
+
+WebUI.click(findTestObject('PRUEBA DATEPICKER/mes'))
+
+WebUI.selectOptionByIndex(findTestObject('PRUEBA DATEPICKER/mes'), 7)
+
+WebUI.click(findTestObject('PRUEBA DATEPICKER/dia'))
+
+WebUI.delay(2)
+
+//LA SEGUNDA PARTE NOS SELECCIONA LA FECHA "FINAL DE EFECTIVIDAD"
+WebUI.click(findTestObject('PRUEBA DATEPICKER/fechafin'))
+
+WebUI.click(findTestObject('PRUEBA DATEPICKER/mesfin'))
+
+WebUI.selectOptionByIndex(findTestObject('PRUEBA DATEPICKER/mesfin'), 10)
+
+WebUI.click(findTestObject('PRUEBA DATEPICKER/diafin'))
+
+// DATEPICKER
 
 WebUI.click(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/span_Guardar'))
 
+}
+
+
+
+//WebUI.delay(2)
+
+//WebUI.click(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/span_Guardar'))
+
 WebUI.delay(3)
 
+WebUI.closeBrowser()

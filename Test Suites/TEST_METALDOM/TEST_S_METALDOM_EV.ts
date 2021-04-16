@@ -50,7 +50,7 @@
    <testCaseLink>
       <guid>56d278d1-6d98-4950-8243-dfcfecf803bb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/TEST-METALDOM/TEST-C-CONFIGURAR_PUNTOS</testCaseId>
    </testCaseLink>
    <testCaseLink>
