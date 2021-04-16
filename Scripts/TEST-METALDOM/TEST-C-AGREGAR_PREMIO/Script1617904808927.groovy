@@ -37,6 +37,9 @@ WebUI.delay(3)
 //ESTE CICLO "FOR" NOS AGREGARA UN NUEVO PREMIO POR CADA DATO QUE HAYA EN EL DATA FILE
 
 for (def rowdata = 1; rowdata <= findTestData('Data Files/DATA METALDOM/AGREGAR_PREMIOS').getRowNumbers(); rowdata++) {
+	
+	
+	
     WebUI.click(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/a_Agregar'))
 
     WebUI.scrollToPosition(0, 15)
