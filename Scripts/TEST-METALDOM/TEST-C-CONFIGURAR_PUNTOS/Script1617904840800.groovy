@@ -174,6 +174,7 @@ WebUI.delay(2)
 
 
 
+
 // DATE PICKER
 
 //PRIMERA PARTE NOS SELECCIONA LA FECHA DE "INICIO DE EFECTIVIDAD"
@@ -198,11 +199,12 @@ WebUI.click(findTestObject('PRUEBA DATEPICKER/diafin'))
 
 // DATEPICKER
 
+
+
+
 WebUI.click(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/span_Guardar'))
 
 }
-
-
 
 //WebUI.delay(2)
 
