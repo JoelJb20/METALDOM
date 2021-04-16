@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/a_Agregar",
+      "brokenLocator": "#mail-app \u003e div \u003e div \u003e div \u003e div \u003e div \u003e section \u003e div \u003e div \u003e form \u003e nav \u003e div.level-right \u003e p \u003e button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027mail-app\u0027]/div/div/div/div/div/div[2]/nav/div[2]/div/div/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/a_Agregar_idRelative.png"
+    }
+  ]
 }

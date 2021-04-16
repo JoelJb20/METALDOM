@@ -39,6 +39,10 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('METALDOM_OR/PREMIOS_DISPONIBLES/Page_base-fe/button_Si'))
 
+WebUI.click(findTestObject('METALDOM_OR/HISTORIAL/Page_base-fe/span_Historial de solicitudes'))
+
+WebUI.scrollToPosition(0, 20)
+
 WebUI.delay(5)
 
 WebUI.closeBrowser()

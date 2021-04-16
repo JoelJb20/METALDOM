@@ -17,6 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+//LLAMAMOS EL TEST CASE DE INICIO SESION MEDIANTE CORREO PARA PODER VER Y TENER TODAS LA OPCIONES
 WebUI.callTestCase(findTestCase('TEST-METALDOM/TEST-C-LOGIN-CORREO'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/span_Configuraciones de Puntos'), 
@@ -24,7 +25,7 @@ WebUI.verifyElementPresent(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/P
 
 WebUI.waitForPageLoad(0)
 
-WebUI.delay(4)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/span_Configuraciones de Puntos'))
 
@@ -55,11 +56,38 @@ WebUI.selectOptionByIndex(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Pa
 WebUI.focus(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Valor de tipo de expiracion_expirationTypeValue'))
 
 WebUI.setText(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Valor de tipo de expiracion_expirationTypeValue'), 
-    GlobalVariable.PUNTOS_TIPOS_EXP)
+    GlobalVariable.PruebaPuntosExp)
 
 WebUI.delay(3)
 
 //WebUI.click(findTestObject('METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/button_S_button is-medium is-primary'))
+
+
+//PRUEBA DATE PICKER
+
+//PRIMERA PARTE NOS SELECCIONA LA FECHA DE "INICIO DE EFECTIVIDAD"
+WebUI.click(findTestObject('Object Repository/PRUEBA DATEPICKER/FECHA'))
+
+WebUI.click(findTestObject('PRUEBA DATEPICKER/mes'))
+
+WebUI.selectOptionByIndex(findTestObject('PRUEBA DATEPICKER/mes'), 7)
+
+WebUI.click(findTestObject('PRUEBA DATEPICKER/dia'))
+
+WebUI.delay(2)
+
+//LA SEGUNDA PARTE NOS SELECCIONA LA FECHA "FINAL DE EFECTIVIDAD"
+WebUI.click(findTestObject('PRUEBA DATEPICKER/fechafin'))
+
+WebUI.click(findTestObject('PRUEBA DATEPICKER/mesfin'))
+
+WebUI.selectOptionByIndex(findTestObject('PRUEBA DATEPICKER/mesfin'), 10)
+
+WebUI.click(findTestObject('PRUEBA DATEPICKER/diafin'))
+
+//PRUEBA DATEPICKER
+
+
 
 WebUI.delay(4)
 

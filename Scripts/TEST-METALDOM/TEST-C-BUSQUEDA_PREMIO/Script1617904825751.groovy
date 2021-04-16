@@ -17,6 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+
+//LLAMAMOS EL TEST CASE DE INICIO SESION MEDIANTE CORREO PARA PODER VER Y TENER TODAS LA OPCIONES
+
 WebUI.callTestCase(findTestCase('TEST-METALDOM/TEST-C-LOGIN-CORREO'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForPageLoad(0)
@@ -28,6 +31,9 @@ WebUI.verifyElementPresent(findTestObject('METALDOM_OR/BUSCADOR/Page_base-fe/spa
 WebUI.delay(3)
 
 WebUI.click(findTestObject('METALDOM_OR/BUSCADOR/Page_base-fe/span_Configuraciones de Premios'))
+
+
+//ESTE CICLO "FOR" NOS VA A ITERAR UNA BUSQUEDA CON CADA UNO DE LOS DATOS AGREGADO EN EL DATA FILE
 
 for (def rowdata = 1; rowdata <= findTestData('Data Files/DATA METALDOM/BUSQUEDA_PREMIOS').getRowNumbers(); rowdata++) {
     WebUI.waitForPageLoad(0)

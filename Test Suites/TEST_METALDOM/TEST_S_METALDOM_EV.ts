@@ -26,8 +26,8 @@
    <testCaseLink>
       <guid>cb5c995e-ebe4-4a53-a53e-1446550f5fb0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/TEST-METALDOM/TEST-C-PREMIOS_DISPONI</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/TEST-METALDOM/TEST-C-PREMIOS_DISPONI_CANJE</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>4e385b2b-e66e-4c8a-84f5-43789c213fc2</guid>
@@ -40,11 +40,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TEST-METALDOM/TEST-C-AGREGAR_PREMIO</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4f1f6c92-b7be-4ad8-a307-aabcd62d9e07</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>56d278d1-6d98-4950-8243-dfcfecf803bb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TEST-METALDOM/TEST-C-CONFIGURAR_PUNTOS</testCaseId>
    </testCaseLink>
    <testCaseLink>

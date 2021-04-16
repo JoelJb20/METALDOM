@@ -1,0 +1,1155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TEST_S_METALDOM_EV" time="222.555" tests="5" failures="0" skips="0" errors="0">
+   <testsuite name="TEST_S_METALDOM_EV" tests="5" failures="0" errors="0" time="222.555" skips="0" timestamp="2021-04-14 16:24:10" hostname="joel_ - DESKTOP-EAUO6T0" id="Test Suites/TEST_METALDOM/TEST_S_METALDOM_EV">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\joel_\\git\\METALDOM\\Reports\\20210414_162358\\TEST_METALDOM\\TEST_S_METALDOM_EV\\20210414_162358"/>
+         <property name="logFiles" value="C:\\Users\\joel_\\git\\METALDOM\\Reports\\20210414_162358\\TEST_METALDOM\\TEST_S_METALDOM_EV\\20210414_162358\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="joel_ - DESKTOP-EAUO6T0"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="browser" value="Chrome 89.0.4389.114"/>
+         <property name="hostAddress" value="192.168.175.2"/>
+         <property name="sessionId" value="dbcb3088db73c9a39e3b3d439ed1c036"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TEST-METALDOM/TEST-C-LOGIN-CEDULA" time="17.588" classname="Test Cases/TEST-METALDOM/TEST-C-LOGIN-CEDULA" status="PASSED">
+         <system-out><![CDATA[2021-04-14 16:24:13 - [TEST_CASE][PASSED] - Test Cases/TEST-METALDOM/TEST-C-LOGIN-CEDULA: Test Cases/TEST-METALDOM/TEST-C-LOGIN-CEDULA
+
+2021-04-14 16:24:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-04-14 16:24:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-04-14 16:24:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-04-14 16:24:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-04-14 16:24:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-04-14 16:24:17 - [MESSAGE][PASSED] - Current window maximized
+
+2021-04-14 16:24:17 - [TEST_STEP][PASSED] - navigateToUrl("https://metaldomsx.b2clogin.com/metaldomsx.onmicrosoft.com/b2c_1_identity_provider/oauth2/v2.0/authorize?response_type=id_token&scope=openid%20profile&client_id=a8322c90-a407-4733-ab42-7befe6ab3e2c&redirect_uri=https%3A%2F%2Fsxmetaldomfe.azurewebsites.net%2F&state=eyJpZCI6IjFjNmNkMTJkLTY1YjYtNDc4ZS1hMjYwLTc5OTg5ZmRhNzk4MiIsInRzIjoxNjE3OTA2NTgwLCJtZXRob2QiOiJyZWRpcmVjdEludGVyYWN0aW9uIn0%3D&nonce=eb69c372-acb1-4163-8f5b-c25aec8069a5&client_info=1&x-client-SKU=MSAL.JS&x-client-Ver=msal&client-request-id=e9d838ff-741e-4e5e-8e48-e0c967052cf2&response_mode=fragment"): Navigate to 'https://metaldomsx.b2clogin.com/metaldomsx.onmicrosoft.com/b2c_1_identity_provider/oauth2/v2.0/authorize?response_type=id_token&scope=openid%20profile&client_id=a8322c90-a407-4733-ab42-7befe6ab3e2c&redirect_uri=https%3A%2F%2Fsxmetaldomfe.azurewebsites.net%2F&state=eyJpZCI6IjFjNmNkMTJkLTY1YjYtNDc4ZS1hMjYwLTc5OTg5ZmRhNzk4MiIsInRzIjoxNjE3OTA2NTgwLCJtZXRob2QiOiJyZWRpcmVjdEludGVyYWN0aW9uIn0%3D&nonce=eb69c372-acb1-4163-8f5b-c25aec8069a5&client_info=1&x-client-SKU=MSAL.JS&x-client-Ver=msal&client-request-id=e9d838ff-741e-4e5e-8e48-e0c967052cf2&response_mode=fragment' successfully
+
+2021-04-14 16:24:19 - [MESSAGE][PASSED] - Navigate to 'https://metaldomsx.b2clogin.com/metaldomsx.onmicrosoft.com/b2c_1_identity_provider/oauth2/v2.0/authorize?response_type=id_token&scope=openid%20profile&client_id=a8322c90-a407-4733-ab42-7befe6ab3e2c&redirect_uri=https%3A%2F%2Fsxmetaldomfe.azurewebsites.net%2F&state=eyJpZCI6IjFjNmNkMTJkLTY1YjYtNDc4ZS1hMjYwLTc5OTg5ZmRhNzk4MiIsInRzIjoxNjE3OTA2NTgwLCJtZXRob2QiOiJyZWRpcmVjdEludGVyYWN0aW9uIn0%3D&nonce=eb69c372-acb1-4163-8f5b-c25aec8069a5&client_info=1&x-client-SKU=MSAL.JS&x-client-Ver=msal&client-request-id=e9d838ff-741e-4e5e-8e48-e0c967052cf2&response_mode=fragment' successfully
+
+2021-04-14 16:24:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address"), 0): Object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address' is present
+
+2021-04-14 16:24:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:24:20 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address' is present
+
+2021-04-14 16:24:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea"), 0): Object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea' is present
+
+2021-04-14 16:24:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:24:20 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea' is present
+
+2021-04-14 16:24:20 - [TEST_STEP][PASSED] - focus(findTestObject("METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address")): Object: 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address' is focused
+
+2021-04-14 16:24:21 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address' is focused
+
+2021-04-14 16:24:21 - [TEST_STEP][PASSED] - setText(findTestObject("METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address"), USER_CEDULA): Text '40209136635' is set on object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address'
+
+2021-04-14 16:24:25 - [MESSAGE][PASSED] - Text '40209136635' is set on object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address'
+
+2021-04-14 16:24:25 - [TEST_STEP][PASSED] - focus(findTestObject("METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea")): Object: 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea' is focused
+
+2021-04-14 16:24:25 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea' is focused
+
+2021-04-14 16:24:25 - [TEST_STEP][PASSED] - setText(findTestObject("METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea"), PASS_CEDULA): Text 'JB19982010.' is set on object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea'
+
+2021-04-14 16:24:26 - [MESSAGE][PASSED] - Text 'JB19982010.' is set on object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea'
+
+2021-04-14 16:24:26 - [TEST_STEP][PASSED] - click(findTestObject("METALDOM_LOGIN/Page_Sign in/button_Iniciar sesin")): Object: 'Object Repository/METALDOM_LOGIN/Page_Sign in/button_Iniciar sesin' is clicked on
+
+2021-04-14 16:24:27 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_LOGIN/Page_Sign in/button_Iniciar sesin' is clicked on
+
+2021-04-14 16:24:27 - [TEST_STEP][PASSED] - waitForPageLoad(3): Wait for page load successfully
+
+2021-04-14 16:24:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-04-14 16:24:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-04-14 16:24:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-04-14 16:24:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-04-14 16:24:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TEST-METALDOM/TEST-C-LOGIN-CORREO" time="9.266" classname="Test Cases/TEST-METALDOM/TEST-C-LOGIN-CORREO" status="PASSED">
+         <system-out><![CDATA[2021-04-14 16:24:31 - [TEST_CASE][PASSED] - Test Cases/TEST-METALDOM/TEST-C-LOGIN-CORREO: Test Cases/TEST-METALDOM/TEST-C-LOGIN-CORREO
+
+2021-04-14 16:24:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-04-14 16:24:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-04-14 16:24:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-04-14 16:24:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-04-14 16:24:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-04-14 16:24:33 - [MESSAGE][PASSED] - Current window maximized
+
+2021-04-14 16:24:33 - [TEST_STEP][PASSED] - navigateToUrl("https://metaldomsx.b2clogin.com/metaldomsx.onmicrosoft.com/b2c_1_identity_provider/oauth2/v2.0/authorize?response_type=id_token&scope=openid%20profile&client_id=a8322c90-a407-4733-ab42-7befe6ab3e2c&redirect_uri=https%3A%2F%2Fsxmetaldomfe.azurewebsites.net%2F&state=eyJpZCI6IjFjNmNkMTJkLTY1YjYtNDc4ZS1hMjYwLTc5OTg5ZmRhNzk4MiIsInRzIjoxNjE3OTA2NTgwLCJtZXRob2QiOiJyZWRpcmVjdEludGVyYWN0aW9uIn0%3D&nonce=eb69c372-acb1-4163-8f5b-c25aec8069a5&client_info=1&x-client-SKU=MSAL.JS&x-client-Ver=msal&client-request-id=e9d838ff-741e-4e5e-8e48-e0c967052cf2&response_mode=fragment"): Navigate to 'https://metaldomsx.b2clogin.com/metaldomsx.onmicrosoft.com/b2c_1_identity_provider/oauth2/v2.0/authorize?response_type=id_token&scope=openid%20profile&client_id=a8322c90-a407-4733-ab42-7befe6ab3e2c&redirect_uri=https%3A%2F%2Fsxmetaldomfe.azurewebsites.net%2F&state=eyJpZCI6IjFjNmNkMTJkLTY1YjYtNDc4ZS1hMjYwLTc5OTg5ZmRhNzk4MiIsInRzIjoxNjE3OTA2NTgwLCJtZXRob2QiOiJyZWRpcmVjdEludGVyYWN0aW9uIn0%3D&nonce=eb69c372-acb1-4163-8f5b-c25aec8069a5&client_info=1&x-client-SKU=MSAL.JS&x-client-Ver=msal&client-request-id=e9d838ff-741e-4e5e-8e48-e0c967052cf2&response_mode=fragment' successfully
+
+2021-04-14 16:24:34 - [MESSAGE][PASSED] - Navigate to 'https://metaldomsx.b2clogin.com/metaldomsx.onmicrosoft.com/b2c_1_identity_provider/oauth2/v2.0/authorize?response_type=id_token&scope=openid%20profile&client_id=a8322c90-a407-4733-ab42-7befe6ab3e2c&redirect_uri=https%3A%2F%2Fsxmetaldomfe.azurewebsites.net%2F&state=eyJpZCI6IjFjNmNkMTJkLTY1YjYtNDc4ZS1hMjYwLTc5OTg5ZmRhNzk4MiIsInRzIjoxNjE3OTA2NTgwLCJtZXRob2QiOiJyZWRpcmVjdEludGVyYWN0aW9uIn0%3D&nonce=eb69c372-acb1-4163-8f5b-c25aec8069a5&client_info=1&x-client-SKU=MSAL.JS&x-client-Ver=msal&client-request-id=e9d838ff-741e-4e5e-8e48-e0c967052cf2&response_mode=fragment' successfully
+
+2021-04-14 16:24:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address"), 0): Object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address' is present
+
+2021-04-14 16:24:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:24:35 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address' is present
+
+2021-04-14 16:24:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea"), 0): Object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea' is present
+
+2021-04-14 16:24:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:24:35 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea' is present
+
+2021-04-14 16:24:35 - [TEST_STEP][PASSED] - focus(findTestObject("METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address")): Object: 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address' is focused
+
+2021-04-14 16:24:36 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address' is focused
+
+2021-04-14 16:24:36 - [TEST_STEP][PASSED] - setText(findTestObject("METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address"), USER_EMAIL): Text 'diogenes.polanco@solvex.com.do' is set on object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address'
+
+2021-04-14 16:24:36 - [MESSAGE][PASSED] - Text 'diogenes.polanco@solvex.com.do' is set on object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address'
+
+2021-04-14 16:24:36 - [TEST_STEP][PASSED] - focus(findTestObject("METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea")): Object: 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea' is focused
+
+2021-04-14 16:24:37 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea' is focused
+
+2021-04-14 16:24:37 - [TEST_STEP][PASSED] - setText(findTestObject("METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea"), PASS_EMAIL): Text '@n@05021990' is set on object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea'
+
+2021-04-14 16:24:37 - [MESSAGE][PASSED] - Text '@n@05021990' is set on object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea'
+
+2021-04-14 16:24:37 - [TEST_STEP][PASSED] - click(findTestObject("METALDOM_LOGIN/Page_Sign in/button_Iniciar sesin")): Object: 'Object Repository/METALDOM_LOGIN/Page_Sign in/button_Iniciar sesin' is clicked on
+
+2021-04-14 16:24:38 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_LOGIN/Page_Sign in/button_Iniciar sesin' is clicked on
+
+2021-04-14 16:24:38 - [TEST_STEP][PASSED] - waitForPageLoad(3): Wait for page load successfully
+
+2021-04-14 16:24:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-04-14 16:24:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-04-14 16:24:40 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TEST-METALDOM/TEST-C-TIPOS_PREMIOS" time="47.588" classname="Test Cases/TEST-METALDOM/TEST-C-TIPOS_PREMIOS" status="PASSED">
+         <system-out><![CDATA[2021-04-14 16:24:40 - [TEST_CASE][PASSED] - Test Cases/TEST-METALDOM/TEST-C-TIPOS_PREMIOS: Test Cases/TEST-METALDOM/TEST-C-TIPOS_PREMIOS
+
+2021-04-14 16:24:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TEST-METALDOM/TEST-C-LOGIN-CORREO"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TEST-METALDOM/TEST-C-LOGIN-CORREO' successfully
+
+2021-04-14 16:24:41 - [TEST_CASE][PASSED] - Test Cases/TEST-METALDOM/TEST-C-LOGIN-CORREO: Test Cases/TEST-METALDOM/TEST-C-LOGIN-CORREO
+
+2021-04-14 16:24:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-04-14 16:24:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-04-14 16:24:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-04-14 16:24:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-04-14 16:24:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-04-14 16:24:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-04-14 16:24:43 - [MESSAGE][PASSED] - Current window maximized
+
+2021-04-14 16:24:43 - [TEST_STEP][PASSED] - navigateToUrl("https://metaldomsx.b2clogin.com/metaldomsx.onmicrosoft.com/b2c_1_identity_provider/oauth2/v2.0/authorize?response_type=id_token&scope=openid%20profile&client_id=a8322c90-a407-4733-ab42-7befe6ab3e2c&redirect_uri=https%3A%2F%2Fsxmetaldomfe.azurewebsites.net%2F&state=eyJpZCI6IjFjNmNkMTJkLTY1YjYtNDc4ZS1hMjYwLTc5OTg5ZmRhNzk4MiIsInRzIjoxNjE3OTA2NTgwLCJtZXRob2QiOiJyZWRpcmVjdEludGVyYWN0aW9uIn0%3D&nonce=eb69c372-acb1-4163-8f5b-c25aec8069a5&client_info=1&x-client-SKU=MSAL.JS&x-client-Ver=msal&client-request-id=e9d838ff-741e-4e5e-8e48-e0c967052cf2&response_mode=fragment"): Navigate to 'https://metaldomsx.b2clogin.com/metaldomsx.onmicrosoft.com/b2c_1_identity_provider/oauth2/v2.0/authorize?response_type=id_token&scope=openid%20profile&client_id=a8322c90-a407-4733-ab42-7befe6ab3e2c&redirect_uri=https%3A%2F%2Fsxmetaldomfe.azurewebsites.net%2F&state=eyJpZCI6IjFjNmNkMTJkLTY1YjYtNDc4ZS1hMjYwLTc5OTg5ZmRhNzk4MiIsInRzIjoxNjE3OTA2NTgwLCJtZXRob2QiOiJyZWRpcmVjdEludGVyYWN0aW9uIn0%3D&nonce=eb69c372-acb1-4163-8f5b-c25aec8069a5&client_info=1&x-client-SKU=MSAL.JS&x-client-Ver=msal&client-request-id=e9d838ff-741e-4e5e-8e48-e0c967052cf2&response_mode=fragment' successfully
+
+2021-04-14 16:24:45 - [MESSAGE][PASSED] - Navigate to 'https://metaldomsx.b2clogin.com/metaldomsx.onmicrosoft.com/b2c_1_identity_provider/oauth2/v2.0/authorize?response_type=id_token&scope=openid%20profile&client_id=a8322c90-a407-4733-ab42-7befe6ab3e2c&redirect_uri=https%3A%2F%2Fsxmetaldomfe.azurewebsites.net%2F&state=eyJpZCI6IjFjNmNkMTJkLTY1YjYtNDc4ZS1hMjYwLTc5OTg5ZmRhNzk4MiIsInRzIjoxNjE3OTA2NTgwLCJtZXRob2QiOiJyZWRpcmVjdEludGVyYWN0aW9uIn0%3D&nonce=eb69c372-acb1-4163-8f5b-c25aec8069a5&client_info=1&x-client-SKU=MSAL.JS&x-client-Ver=msal&client-request-id=e9d838ff-741e-4e5e-8e48-e0c967052cf2&response_mode=fragment' successfully
+
+2021-04-14 16:24:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address"), 0): Object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address' is present
+
+2021-04-14 16:24:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:24:46 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address' is present
+
+2021-04-14 16:24:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea"), 0): Object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea' is present
+
+2021-04-14 16:24:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:24:46 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea' is present
+
+2021-04-14 16:24:46 - [TEST_STEP][PASSED] - focus(findTestObject("METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address")): Object: 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address' is focused
+
+2021-04-14 16:24:47 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address' is focused
+
+2021-04-14 16:24:47 - [TEST_STEP][PASSED] - setText(findTestObject("METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address"), USER_EMAIL): Text 'diogenes.polanco@solvex.com.do' is set on object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address'
+
+2021-04-14 16:24:47 - [MESSAGE][PASSED] - Text 'diogenes.polanco@solvex.com.do' is set on object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address'
+
+2021-04-14 16:24:47 - [TEST_STEP][PASSED] - focus(findTestObject("METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea")): Object: 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea' is focused
+
+2021-04-14 16:24:48 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea' is focused
+
+2021-04-14 16:24:48 - [TEST_STEP][PASSED] - setText(findTestObject("METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea"), PASS_EMAIL): Text '@n@05021990' is set on object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea'
+
+2021-04-14 16:24:48 - [MESSAGE][PASSED] - Text '@n@05021990' is set on object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea'
+
+2021-04-14 16:24:48 - [TEST_STEP][PASSED] - click(findTestObject("METALDOM_LOGIN/Page_Sign in/button_Iniciar sesin")): Object: 'Object Repository/METALDOM_LOGIN/Page_Sign in/button_Iniciar sesin' is clicked on
+
+2021-04-14 16:24:49 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_LOGIN/Page_Sign in/button_Iniciar sesin' is clicked on
+
+2021-04-14 16:24:49 - [TEST_STEP][PASSED] - waitForPageLoad(3): Wait for page load successfully
+
+2021-04-14 16:24:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-04-14 16:24:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-04-14 16:24:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-04-14 16:24:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TEST-METALDOM/TEST-C-LOGIN-CORREO' successfully
+
+2021-04-14 16:24:51 - [TEST_STEP][PASSED] - waitForPageLoad(3): Wait for page load successfully
+
+2021-04-14 16:24:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-04-14 16:24:51 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2021-04-14 16:24:57 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2021-04-14 16:24:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/span_Tipos de Premios"), 0): Object 'Object Repository/METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/span_Tipos de Premios' is present
+
+2021-04-14 16:24:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:24:57 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/span_Tipos de Premios' is present
+
+2021-04-14 16:24:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-04-14 16:25:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-04-14 16:25:00 - [TEST_STEP][PASSED] - click(findTestObject("METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/span_Tipos de Premios")): Object: 'Object Repository/METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/span_Tipos de Premios' is clicked on
+
+2021-04-14 16:25:01 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/span_Tipos de Premios' is clicked on
+
+2021-04-14 16:25:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-04-14 16:25:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-04-14 16:25:03 - [TEST_STEP][PASSED] - for ([rowdata = 1, rowdata <= findTestData("Data Files/DATA METALDOM/TIPOS_PREMIOS").getRowNumbers(), (rowdata++)]): Delayed 3 second(s)
+
+2021-04-14 16:25:03 - [TEST_STEP][PASSED] - click(findTestObject("METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/a_Agregar")): Object: 'Object Repository/METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/a_Agregar' is clicked on
+
+2021-04-14 16:25:03 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/a_Agregar' is clicked on
+
+2021-04-14 16:25:03 - [TEST_STEP][PASSED] - focus(findTestObject("METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/input_Nombre_name")): Object: 'Object Repository/METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/input_Nombre_name' is focused
+
+2021-04-14 16:25:04 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/input_Nombre_name' is focused
+
+2021-04-14 16:25:04 - [TEST_STEP][PASSED] - setText(findTestObject("METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/input_Nombre_name"), findTestData("Data Files/DATA METALDOM/TIPOS_PREMIOS").getValue(1, rowdata)): Text 'PREMIOS DE VERANO' is set on object 'Object Repository/METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/input_Nombre_name'
+
+2021-04-14 16:25:05 - [MESSAGE][PASSED] - Text 'PREMIOS DE VERANO' is set on object 'Object Repository/METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/input_Nombre_name'
+
+2021-04-14 16:25:05 - [TEST_STEP][PASSED] - focus(findTestObject("METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/input_Descripcin_description")): Object: 'Object Repository/METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/input_Descripcin_description' is focused
+
+2021-04-14 16:25:05 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/input_Descripcin_description' is focused
+
+2021-04-14 16:25:05 - [TEST_STEP][PASSED] - setText(findTestObject("METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/input_Descripcin_description"), findTestData("Data Files/DATA METALDOM/TIPOS_PREMIOS").getValue(2, rowdata)): Text 'PREMIOS QUE SERAN DATOS A CLIENTES QUE EN VERANO FACTUREN MAS DE 10,000 TN' is set on object 'Object Repository/METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/input_Descripcin_description'
+
+2021-04-14 16:25:06 - [MESSAGE][PASSED] - Text 'PREMIOS QUE SERAN DATOS A CLIENTES QUE EN VERANO FACTUREN MAS DE 10,000 TN' is set on object 'Object Repository/METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/input_Descripcin_description'
+
+2021-04-14 16:25:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-04-14 16:25:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-04-14 16:25:09 - [TEST_STEP][PASSED] - click(findTestObject("METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/button_Guardar")): Object: 'Object Repository/METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/button_Guardar' is clicked on
+
+2021-04-14 16:25:10 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/button_Guardar' is clicked on
+
+2021-04-14 16:25:10 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-04-14 16:25:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-04-14 16:25:13 - [TEST_STEP][PASSED] - click(findTestObject("METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/a_Agregar")): Object: 'Object Repository/METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/a_Agregar' is clicked on
+
+2021-04-14 16:25:13 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/a_Agregar' is clicked on
+
+2021-04-14 16:25:13 - [TEST_STEP][PASSED] - focus(findTestObject("METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/input_Nombre_name")): Object: 'Object Repository/METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/input_Nombre_name' is focused
+
+2021-04-14 16:25:13 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/input_Nombre_name' is focused
+
+2021-04-14 16:25:13 - [TEST_STEP][PASSED] - setText(findTestObject("METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/input_Nombre_name"), findTestData("Data Files/DATA METALDOM/TIPOS_PREMIOS").getValue(1, rowdata)): Text 'PREMIOS CLIENTES VIP' is set on object 'Object Repository/METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/input_Nombre_name'
+
+2021-04-14 16:25:14 - [MESSAGE][PASSED] - Text 'PREMIOS CLIENTES VIP' is set on object 'Object Repository/METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/input_Nombre_name'
+
+2021-04-14 16:25:14 - [TEST_STEP][PASSED] - focus(findTestObject("METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/input_Descripcin_description")): Object: 'Object Repository/METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/input_Descripcin_description' is focused
+
+2021-04-14 16:25:15 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/input_Descripcin_description' is focused
+
+2021-04-14 16:25:15 - [TEST_STEP][PASSED] - setText(findTestObject("METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/input_Descripcin_description"), findTestData("Data Files/DATA METALDOM/TIPOS_PREMIOS").getValue(2, rowdata)): Text 'PREMIOS QUE SERAN DATOS A CLIENTES QUE EN VERANO FACTUREN MAS DE 10,000 TN' is set on object 'Object Repository/METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/input_Descripcin_description'
+
+2021-04-14 16:25:16 - [MESSAGE][PASSED] - Text 'PREMIOS QUE SERAN DATOS A CLIENTES QUE EN VERANO FACTUREN MAS DE 10,000 TN' is set on object 'Object Repository/METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/input_Descripcin_description'
+
+2021-04-14 16:25:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-04-14 16:25:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-04-14 16:25:19 - [TEST_STEP][PASSED] - click(findTestObject("METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/button_Guardar")): Object: 'Object Repository/METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/button_Guardar' is clicked on
+
+2021-04-14 16:25:19 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/button_Guardar' is clicked on
+
+2021-04-14 16:25:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-04-14 16:25:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-04-14 16:25:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/span_Tipos de Premios")): Object: 'Object Repository/METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/span_Tipos de Premios' is clicked on
+
+2021-04-14 16:25:23 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/span_Tipos de Premios' is clicked on
+
+2021-04-14 16:25:23 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2021-04-14 16:25:27 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2021-04-14 16:25:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-04-14 16:25:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TEST-METALDOM/TEST-C-AGREGAR_PREMIO" time="79.879" classname="Test Cases/TEST-METALDOM/TEST-C-AGREGAR_PREMIO" status="PASSED">
+         <system-out><![CDATA[2021-04-14 16:25:27 - [TEST_CASE][PASSED] - Test Cases/TEST-METALDOM/TEST-C-AGREGAR_PREMIO: Test Cases/TEST-METALDOM/TEST-C-AGREGAR_PREMIO
+
+2021-04-14 16:25:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TEST-METALDOM/TEST-C-LOGIN-CORREO"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TEST-METALDOM/TEST-C-LOGIN-CORREO' successfully
+
+2021-04-14 16:25:28 - [TEST_CASE][PASSED] - Test Cases/TEST-METALDOM/TEST-C-LOGIN-CORREO: Test Cases/TEST-METALDOM/TEST-C-LOGIN-CORREO
+
+2021-04-14 16:25:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-04-14 16:25:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-04-14 16:25:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-04-14 16:25:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-04-14 16:25:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-04-14 16:25:29 - [MESSAGE][PASSED] - Current window maximized
+
+2021-04-14 16:25:29 - [TEST_STEP][PASSED] - navigateToUrl("https://metaldomsx.b2clogin.com/metaldomsx.onmicrosoft.com/b2c_1_identity_provider/oauth2/v2.0/authorize?response_type=id_token&scope=openid%20profile&client_id=a8322c90-a407-4733-ab42-7befe6ab3e2c&redirect_uri=https%3A%2F%2Fsxmetaldomfe.azurewebsites.net%2F&state=eyJpZCI6IjFjNmNkMTJkLTY1YjYtNDc4ZS1hMjYwLTc5OTg5ZmRhNzk4MiIsInRzIjoxNjE3OTA2NTgwLCJtZXRob2QiOiJyZWRpcmVjdEludGVyYWN0aW9uIn0%3D&nonce=eb69c372-acb1-4163-8f5b-c25aec8069a5&client_info=1&x-client-SKU=MSAL.JS&x-client-Ver=msal&client-request-id=e9d838ff-741e-4e5e-8e48-e0c967052cf2&response_mode=fragment"): Navigate to 'https://metaldomsx.b2clogin.com/metaldomsx.onmicrosoft.com/b2c_1_identity_provider/oauth2/v2.0/authorize?response_type=id_token&scope=openid%20profile&client_id=a8322c90-a407-4733-ab42-7befe6ab3e2c&redirect_uri=https%3A%2F%2Fsxmetaldomfe.azurewebsites.net%2F&state=eyJpZCI6IjFjNmNkMTJkLTY1YjYtNDc4ZS1hMjYwLTc5OTg5ZmRhNzk4MiIsInRzIjoxNjE3OTA2NTgwLCJtZXRob2QiOiJyZWRpcmVjdEludGVyYWN0aW9uIn0%3D&nonce=eb69c372-acb1-4163-8f5b-c25aec8069a5&client_info=1&x-client-SKU=MSAL.JS&x-client-Ver=msal&client-request-id=e9d838ff-741e-4e5e-8e48-e0c967052cf2&response_mode=fragment' successfully
+
+2021-04-14 16:25:31 - [MESSAGE][PASSED] - Navigate to 'https://metaldomsx.b2clogin.com/metaldomsx.onmicrosoft.com/b2c_1_identity_provider/oauth2/v2.0/authorize?response_type=id_token&scope=openid%20profile&client_id=a8322c90-a407-4733-ab42-7befe6ab3e2c&redirect_uri=https%3A%2F%2Fsxmetaldomfe.azurewebsites.net%2F&state=eyJpZCI6IjFjNmNkMTJkLTY1YjYtNDc4ZS1hMjYwLTc5OTg5ZmRhNzk4MiIsInRzIjoxNjE3OTA2NTgwLCJtZXRob2QiOiJyZWRpcmVjdEludGVyYWN0aW9uIn0%3D&nonce=eb69c372-acb1-4163-8f5b-c25aec8069a5&client_info=1&x-client-SKU=MSAL.JS&x-client-Ver=msal&client-request-id=e9d838ff-741e-4e5e-8e48-e0c967052cf2&response_mode=fragment' successfully
+
+2021-04-14 16:25:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address"), 0): Object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address' is present
+
+2021-04-14 16:25:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:25:32 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address' is present
+
+2021-04-14 16:25:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea"), 0): Object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea' is present
+
+2021-04-14 16:25:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:25:32 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea' is present
+
+2021-04-14 16:25:32 - [TEST_STEP][PASSED] - focus(findTestObject("METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address")): Object: 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address' is focused
+
+2021-04-14 16:25:33 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address' is focused
+
+2021-04-14 16:25:33 - [TEST_STEP][PASSED] - setText(findTestObject("METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address"), USER_EMAIL): Text 'diogenes.polanco@solvex.com.do' is set on object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address'
+
+2021-04-14 16:25:33 - [MESSAGE][PASSED] - Text 'diogenes.polanco@solvex.com.do' is set on object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address'
+
+2021-04-14 16:25:33 - [TEST_STEP][PASSED] - focus(findTestObject("METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea")): Object: 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea' is focused
+
+2021-04-14 16:25:34 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea' is focused
+
+2021-04-14 16:25:34 - [TEST_STEP][PASSED] - setText(findTestObject("METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea"), PASS_EMAIL): Text '@n@05021990' is set on object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea'
+
+2021-04-14 16:25:34 - [MESSAGE][PASSED] - Text '@n@05021990' is set on object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea'
+
+2021-04-14 16:25:34 - [TEST_STEP][PASSED] - click(findTestObject("METALDOM_LOGIN/Page_Sign in/button_Iniciar sesin")): Object: 'Object Repository/METALDOM_LOGIN/Page_Sign in/button_Iniciar sesin' is clicked on
+
+2021-04-14 16:25:35 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_LOGIN/Page_Sign in/button_Iniciar sesin' is clicked on
+
+2021-04-14 16:25:35 - [TEST_STEP][PASSED] - waitForPageLoad(3): Wait for page load successfully
+
+2021-04-14 16:25:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-04-14 16:25:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-04-14 16:25:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-04-14 16:25:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TEST-METALDOM/TEST-C-LOGIN-CORREO' successfully
+
+2021-04-14 16:25:37 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2021-04-14 16:25:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:25:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-04-14 16:25:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-04-14 16:25:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-04-14 16:25:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/span_Configuraciones de Premios"), 0): Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/span_Configuraciones de Premios' is present
+
+2021-04-14 16:25:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:25:41 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/span_Configuraciones de Premios' is present
+
+2021-04-14 16:25:41 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2021-04-14 16:25:45 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2021-04-14 16:25:45 - [TEST_STEP][PASSED] - click(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/span_Configuraciones de Premios")): Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/span_Configuraciones de Premios' is clicked on
+
+2021-04-14 16:25:46 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/span_Configuraciones de Premios' is clicked on
+
+2021-04-14 16:25:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-04-14 16:25:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-04-14 16:25:49 - [TEST_STEP][PASSED] - for ([rowdata = 1, rowdata <= findTestData("Data Files/DATA METALDOM/AGREGAR_PREMIOS").getRowNumbers(), (rowdata++)]): Refresh successfully
+
+2021-04-14 16:25:49 - [TEST_STEP][PASSED] - click(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/a_Agregar")): Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/a_Agregar' is clicked on
+
+2021-04-14 16:25:49 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/a_Agregar' is clicked on
+
+2021-04-14 16:25:49 - [TEST_STEP][PASSED] - scrollToPosition(0, 15): Browser is scrolled to position x = 0, y = 15
+
+2021-04-14 16:25:49 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 15
+
+2021-04-14 16:25:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name"), 0): Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name' is present
+
+2021-04-14 16:25:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:25:50 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name' is present
+
+2021-04-14 16:25:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description"), 0): Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description' is present
+
+2021-04-14 16:25:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:25:50 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description' is present
+
+2021-04-14 16:25:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints"), 0): Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints' is present
+
+2021-04-14 16:25:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:25:51 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints' is present
+
+2021-04-14 16:25:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/select_Premio para proveedores excelentes  Premios clientes Premium"), 0): Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/select_Premio para proveedores excelentes  Premios clientes Premium' is present
+
+2021-04-14 16:25:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:25:51 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/select_Premio para proveedores excelentes  Premios clientes Premium' is present
+
+2021-04-14 16:25:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available"), 0): Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available' is present
+
+2021-04-14 16:25:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:25:51 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available' is present
+
+2021-04-14 16:25:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/span_Subir foto del premio"), 0): Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/span_Subir foto del premio' is present
+
+2021-04-14 16:25:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:25:52 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/span_Subir foto del premio' is present
+
+2021-04-14 16:25:52 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available"), 0): Scroll to object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available' successfully
+
+2021-04-14 16:25:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:25:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available' successfully
+
+2021-04-14 16:25:52 - [TEST_STEP][PASSED] - focus(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name")): Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name' is focused
+
+2021-04-14 16:25:52 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name' is focused
+
+2021-04-14 16:25:52 - [TEST_STEP][PASSED] - setText(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name"), findTestData("Data Files/DATA METALDOM/AGREGAR_PREMIOS").getValue(1, rowdata)): Text 'AURICULARES' is set on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name'
+
+2021-04-14 16:25:53 - [MESSAGE][PASSED] - Text 'AURICULARES' is set on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name'
+
+2021-04-14 16:25:53 - [TEST_STEP][PASSED] - focus(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description")): Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description' is focused
+
+2021-04-14 16:25:54 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description' is focused
+
+2021-04-14 16:25:54 - [TEST_STEP][PASSED] - setText(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description"), findTestData("Data Files/DATA METALDOM/AGREGAR_PREMIOS").getValue(2, rowdata)): Text 'AURICULARES CON BLUETOOTH 5.1 Y  BATERIA DE LARGA DURACION' is set on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description'
+
+2021-04-14 16:25:55 - [MESSAGE][PASSED] - Text 'AURICULARES CON BLUETOOTH 5.1 Y  BATERIA DE LARGA DURACION' is set on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description'
+
+2021-04-14 16:25:55 - [TEST_STEP][PASSED] - focus(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints")): Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints' is focused
+
+2021-04-14 16:25:55 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints' is focused
+
+2021-04-14 16:25:55 - [TEST_STEP][PASSED] - setText(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints"), findTestData("Data Files/DATA METALDOM/AGREGAR_PREMIOS").getValue(3, rowdata)): Text '2500' is set on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints'
+
+2021-04-14 16:25:56 - [MESSAGE][PASSED] - Text '2500' is set on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints'
+
+2021-04-14 16:25:56 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/select_Premio para proveedores excelentes  Premios clientes Premium"), findTestData("DATA METALDOM/AGREGAR_PREMIOS").getValue(4, rowdata)): All options with index in [1] are selected on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/select_Premio para proveedores excelentes  Premios clientes Premium'
+
+2021-04-14 16:25:57 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/select_Premio para proveedores excelentes  Premios clientes Premium'
+
+2021-04-14 16:25:57 - [TEST_STEP][PASSED] - focus(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available")): Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available' is focused
+
+2021-04-14 16:25:57 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available' is focused
+
+2021-04-14 16:25:57 - [TEST_STEP][PASSED] - setText(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available"), findTestData("Data Files/DATA METALDOM/AGREGAR_PREMIOS").getValue(5, rowdata)): Text '100' is set on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available'
+
+2021-04-14 16:25:58 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available'
+
+2021-04-14 16:25:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-04-14 16:26:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-04-14 16:26:01 - [TEST_STEP][PASSED] - click(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/button_Guardar")): Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/button_Guardar' is clicked on
+
+2021-04-14 16:26:01 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/button_Guardar' is clicked on
+
+2021-04-14 16:26:01 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2021-04-14 16:26:01 - [MESSAGE][PASSED] - Navigate back successfully
+
+2021-04-14 16:26:01 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2021-04-14 16:26:01 - [MESSAGE][PASSED] - Refresh successfully
+
+2021-04-14 16:26:01 - [TEST_STEP][PASSED] - click(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/a_Agregar")): Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/a_Agregar' is clicked on
+
+2021-04-14 16:26:02 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/a_Agregar' is clicked on
+
+2021-04-14 16:26:02 - [TEST_STEP][PASSED] - scrollToPosition(0, 15): Browser is scrolled to position x = 0, y = 15
+
+2021-04-14 16:26:02 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 15
+
+2021-04-14 16:26:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name"), 0): Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name' is present
+
+2021-04-14 16:26:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:26:03 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name' is present
+
+2021-04-14 16:26:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description"), 0): Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description' is present
+
+2021-04-14 16:26:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:26:03 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description' is present
+
+2021-04-14 16:26:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints"), 0): Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints' is present
+
+2021-04-14 16:26:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:26:04 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints' is present
+
+2021-04-14 16:26:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/select_Premio para proveedores excelentes  Premios clientes Premium"), 0): Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/select_Premio para proveedores excelentes  Premios clientes Premium' is present
+
+2021-04-14 16:26:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:26:04 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/select_Premio para proveedores excelentes  Premios clientes Premium' is present
+
+2021-04-14 16:26:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available"), 0): Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available' is present
+
+2021-04-14 16:26:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:26:04 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available' is present
+
+2021-04-14 16:26:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/span_Subir foto del premio"), 0): Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/span_Subir foto del premio' is present
+
+2021-04-14 16:26:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:26:05 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/span_Subir foto del premio' is present
+
+2021-04-14 16:26:05 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available"), 0): Scroll to object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available' successfully
+
+2021-04-14 16:26:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:26:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available' successfully
+
+2021-04-14 16:26:05 - [TEST_STEP][PASSED] - focus(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name")): Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name' is focused
+
+2021-04-14 16:26:05 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name' is focused
+
+2021-04-14 16:26:05 - [TEST_STEP][PASSED] - setText(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name"), findTestData("Data Files/DATA METALDOM/AGREGAR_PREMIOS").getValue(1, rowdata)): Text 'PATINETA' is set on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name'
+
+2021-04-14 16:26:06 - [MESSAGE][PASSED] - Text 'PATINETA' is set on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name'
+
+2021-04-14 16:26:06 - [TEST_STEP][PASSED] - focus(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description")): Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description' is focused
+
+2021-04-14 16:26:06 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description' is focused
+
+2021-04-14 16:26:06 - [TEST_STEP][PASSED] - setText(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description"), findTestData("Data Files/DATA METALDOM/AGREGAR_PREMIOS").getValue(2, rowdata)): Text 'PATINETA CON VELOCIDAD MAXIMA DE 20MPH Y UNA BATERIA QUE PUEDE DURAR 1 HORA DE USO CONTINUO' is set on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description'
+
+2021-04-14 16:26:08 - [MESSAGE][PASSED] - Text 'PATINETA CON VELOCIDAD MAXIMA DE 20MPH Y UNA BATERIA QUE PUEDE DURAR 1 HORA DE USO CONTINUO' is set on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description'
+
+2021-04-14 16:26:08 - [TEST_STEP][PASSED] - focus(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints")): Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints' is focused
+
+2021-04-14 16:26:08 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints' is focused
+
+2021-04-14 16:26:08 - [TEST_STEP][PASSED] - setText(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints"), findTestData("Data Files/DATA METALDOM/AGREGAR_PREMIOS").getValue(3, rowdata)): Text '20000' is set on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints'
+
+2021-04-14 16:26:09 - [MESSAGE][PASSED] - Text '20000' is set on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints'
+
+2021-04-14 16:26:09 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/select_Premio para proveedores excelentes  Premios clientes Premium"), findTestData("DATA METALDOM/AGREGAR_PREMIOS").getValue(4, rowdata)): All options with index in [1] are selected on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/select_Premio para proveedores excelentes  Premios clientes Premium'
+
+2021-04-14 16:26:10 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/select_Premio para proveedores excelentes  Premios clientes Premium'
+
+2021-04-14 16:26:10 - [TEST_STEP][PASSED] - focus(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available")): Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available' is focused
+
+2021-04-14 16:26:10 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available' is focused
+
+2021-04-14 16:26:10 - [TEST_STEP][PASSED] - setText(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available"), findTestData("Data Files/DATA METALDOM/AGREGAR_PREMIOS").getValue(5, rowdata)): Text '10' is set on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available'
+
+2021-04-14 16:26:11 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available'
+
+2021-04-14 16:26:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-04-14 16:26:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-04-14 16:26:14 - [TEST_STEP][PASSED] - click(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/button_Guardar")): Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/button_Guardar' is clicked on
+
+2021-04-14 16:26:14 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/button_Guardar' is clicked on
+
+2021-04-14 16:26:14 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2021-04-14 16:26:14 - [MESSAGE][PASSED] - Navigate back successfully
+
+2021-04-14 16:26:14 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2021-04-14 16:26:15 - [MESSAGE][PASSED] - Refresh successfully
+
+2021-04-14 16:26:15 - [TEST_STEP][PASSED] - click(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/a_Agregar")): Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/a_Agregar' is clicked on
+
+2021-04-14 16:26:16 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/a_Agregar' is clicked on
+
+2021-04-14 16:26:16 - [TEST_STEP][PASSED] - scrollToPosition(0, 15): Browser is scrolled to position x = 0, y = 15
+
+2021-04-14 16:26:16 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 15
+
+2021-04-14 16:26:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name"), 0): Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name' is present
+
+2021-04-14 16:26:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:26:16 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name' is present
+
+2021-04-14 16:26:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description"), 0): Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description' is present
+
+2021-04-14 16:26:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:26:17 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description' is present
+
+2021-04-14 16:26:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints"), 0): Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints' is present
+
+2021-04-14 16:26:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:26:17 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints' is present
+
+2021-04-14 16:26:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/select_Premio para proveedores excelentes  Premios clientes Premium"), 0): Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/select_Premio para proveedores excelentes  Premios clientes Premium' is present
+
+2021-04-14 16:26:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:26:17 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/select_Premio para proveedores excelentes  Premios clientes Premium' is present
+
+2021-04-14 16:26:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available"), 0): Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available' is present
+
+2021-04-14 16:26:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:26:18 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available' is present
+
+2021-04-14 16:26:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/span_Subir foto del premio"), 0): Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/span_Subir foto del premio' is present
+
+2021-04-14 16:26:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:26:18 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/span_Subir foto del premio' is present
+
+2021-04-14 16:26:18 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available"), 0): Scroll to object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available' successfully
+
+2021-04-14 16:26:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:26:18 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available' successfully
+
+2021-04-14 16:26:18 - [TEST_STEP][PASSED] - focus(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name")): Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name' is focused
+
+2021-04-14 16:26:19 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name' is focused
+
+2021-04-14 16:26:19 - [TEST_STEP][PASSED] - setText(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name"), findTestData("Data Files/DATA METALDOM/AGREGAR_PREMIOS").getValue(1, rowdata)): Text 'LG' is set on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name'
+
+2021-04-14 16:26:19 - [MESSAGE][PASSED] - Text 'LG' is set on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name'
+
+2021-04-14 16:26:19 - [TEST_STEP][PASSED] - focus(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description")): Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description' is focused
+
+2021-04-14 16:26:20 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description' is focused
+
+2021-04-14 16:26:20 - [TEST_STEP][PASSED] - setText(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description"), findTestData("Data Files/DATA METALDOM/AGREGAR_PREMIOS").getValue(2, rowdata)): Text 'TELEVISOR LG DE 55' PULGADAS ULTRA HD. ' is set on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description'
+
+2021-04-14 16:26:21 - [MESSAGE][PASSED] - Text 'TELEVISOR LG DE 55' PULGADAS ULTRA HD. ' is set on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description'
+
+2021-04-14 16:26:21 - [TEST_STEP][PASSED] - focus(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints")): Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints' is focused
+
+2021-04-14 16:26:21 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints' is focused
+
+2021-04-14 16:26:21 - [TEST_STEP][PASSED] - setText(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints"), findTestData("Data Files/DATA METALDOM/AGREGAR_PREMIOS").getValue(3, rowdata)): Text '15000' is set on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints'
+
+2021-04-14 16:26:22 - [MESSAGE][PASSED] - Text '15000' is set on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints'
+
+2021-04-14 16:26:22 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/select_Premio para proveedores excelentes  Premios clientes Premium"), findTestData("DATA METALDOM/AGREGAR_PREMIOS").getValue(4, rowdata)): All options with index in [0] are selected on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/select_Premio para proveedores excelentes  Premios clientes Premium'
+
+2021-04-14 16:26:23 - [MESSAGE][PASSED] - All options with index in [0] are selected on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/select_Premio para proveedores excelentes  Premios clientes Premium'
+
+2021-04-14 16:26:23 - [TEST_STEP][PASSED] - focus(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available")): Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available' is focused
+
+2021-04-14 16:26:23 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available' is focused
+
+2021-04-14 16:26:23 - [TEST_STEP][PASSED] - setText(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available"), findTestData("Data Files/DATA METALDOM/AGREGAR_PREMIOS").getValue(5, rowdata)): Text '25' is set on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available'
+
+2021-04-14 16:26:24 - [MESSAGE][PASSED] - Text '25' is set on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available'
+
+2021-04-14 16:26:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-04-14 16:26:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-04-14 16:26:27 - [TEST_STEP][PASSED] - click(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/button_Guardar")): Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/button_Guardar' is clicked on
+
+2021-04-14 16:26:27 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/button_Guardar' is clicked on
+
+2021-04-14 16:26:27 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2021-04-14 16:26:27 - [MESSAGE][PASSED] - Navigate back successfully
+
+2021-04-14 16:26:27 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2021-04-14 16:26:27 - [MESSAGE][PASSED] - Refresh successfully
+
+2021-04-14 16:26:27 - [TEST_STEP][PASSED] - click(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/a_Agregar")): Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/a_Agregar' is clicked on
+
+2021-04-14 16:26:28 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/a_Agregar' is clicked on
+
+2021-04-14 16:26:28 - [TEST_STEP][PASSED] - scrollToPosition(0, 15): Browser is scrolled to position x = 0, y = 15
+
+2021-04-14 16:26:28 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 15
+
+2021-04-14 16:26:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name"), 0): Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name' is present
+
+2021-04-14 16:26:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:26:29 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name' is present
+
+2021-04-14 16:26:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description"), 0): Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description' is present
+
+2021-04-14 16:26:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:26:29 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description' is present
+
+2021-04-14 16:26:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints"), 0): Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints' is present
+
+2021-04-14 16:26:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:26:30 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints' is present
+
+2021-04-14 16:26:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/select_Premio para proveedores excelentes  Premios clientes Premium"), 0): Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/select_Premio para proveedores excelentes  Premios clientes Premium' is present
+
+2021-04-14 16:26:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:26:30 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/select_Premio para proveedores excelentes  Premios clientes Premium' is present
+
+2021-04-14 16:26:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available"), 0): Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available' is present
+
+2021-04-14 16:26:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:26:30 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available' is present
+
+2021-04-14 16:26:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/span_Subir foto del premio"), 0): Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/span_Subir foto del premio' is present
+
+2021-04-14 16:26:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:26:30 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/span_Subir foto del premio' is present
+
+2021-04-14 16:26:30 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available"), 0): Scroll to object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available' successfully
+
+2021-04-14 16:26:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:26:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available' successfully
+
+2021-04-14 16:26:31 - [TEST_STEP][PASSED] - focus(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name")): Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name' is focused
+
+2021-04-14 16:26:31 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name' is focused
+
+2021-04-14 16:26:31 - [TEST_STEP][PASSED] - setText(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name"), findTestData("Data Files/DATA METALDOM/AGREGAR_PREMIOS").getValue(1, rowdata)): Text 'SAMSUMG S21' is set on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name'
+
+2021-04-14 16:26:32 - [MESSAGE][PASSED] - Text 'SAMSUMG S21' is set on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Nombre_name'
+
+2021-04-14 16:26:32 - [TEST_STEP][PASSED] - focus(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description")): Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description' is focused
+
+2021-04-14 16:26:32 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description' is focused
+
+2021-04-14 16:26:32 - [TEST_STEP][PASSED] - setText(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description"), findTestData("Data Files/DATA METALDOM/AGREGAR_PREMIOS").getValue(2, rowdata)): Text 'CELULAR SAMSUMG S21, NUEVO DE CAJA' is set on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description'
+
+2021-04-14 16:26:33 - [MESSAGE][PASSED] - Text 'CELULAR SAMSUMG S21, NUEVO DE CAJA' is set on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Descripcin_description'
+
+2021-04-14 16:26:33 - [TEST_STEP][PASSED] - focus(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints")): Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints' is focused
+
+2021-04-14 16:26:34 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints' is focused
+
+2021-04-14 16:26:34 - [TEST_STEP][PASSED] - setText(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints"), findTestData("Data Files/DATA METALDOM/AGREGAR_PREMIOS").getValue(3, rowdata)): Text '14500' is set on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints'
+
+2021-04-14 16:26:34 - [MESSAGE][PASSED] - Text '14500' is set on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Puntos requeridos_requiredPoints'
+
+2021-04-14 16:26:34 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/select_Premio para proveedores excelentes  Premios clientes Premium"), findTestData("DATA METALDOM/AGREGAR_PREMIOS").getValue(4, rowdata)): All options with index in [1] are selected on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/select_Premio para proveedores excelentes  Premios clientes Premium'
+
+2021-04-14 16:26:35 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/select_Premio para proveedores excelentes  Premios clientes Premium'
+
+2021-04-14 16:26:35 - [TEST_STEP][PASSED] - focus(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available")): Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available' is focused
+
+2021-04-14 16:26:36 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available' is focused
+
+2021-04-14 16:26:36 - [TEST_STEP][PASSED] - setText(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available"), findTestData("Data Files/DATA METALDOM/AGREGAR_PREMIOS").getValue(5, rowdata)): Text '50' is set on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available'
+
+2021-04-14 16:26:36 - [MESSAGE][PASSED] - Text '50' is set on object 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available'
+
+2021-04-14 16:26:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-04-14 16:26:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-04-14 16:26:39 - [TEST_STEP][PASSED] - click(findTestObject("METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/button_Guardar")): Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/button_Guardar' is clicked on
+
+2021-04-14 16:26:40 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/button_Guardar' is clicked on
+
+2021-04-14 16:26:40 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2021-04-14 16:26:40 - [MESSAGE][PASSED] - Navigate back successfully
+
+2021-04-14 16:26:40 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2021-04-14 16:26:40 - [MESSAGE][PASSED] - Refresh successfully
+
+2021-04-14 16:26:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/span_Configuraciones de Premios")): Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/span_Configuraciones de Premios' is clicked on
+
+2021-04-14 16:26:42 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/span_Configuraciones de Premios' is clicked on
+
+2021-04-14 16:26:42 - [TEST_STEP][PASSED] - scrollToPosition(0, 40): Browser is scrolled to position x = 0, y = 40
+
+2021-04-14 16:26:42 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 40
+
+2021-04-14 16:26:42 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-04-14 16:26:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-04-14 16:26:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-04-14 16:26:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TEST-METALDOM/TEST-C-BUSQUEDA_PREMIO" time="64.195" classname="Test Cases/TEST-METALDOM/TEST-C-BUSQUEDA_PREMIO" status="PASSED">
+         <system-out><![CDATA[2021-04-14 16:26:47 - [TEST_CASE][PASSED] - Test Cases/TEST-METALDOM/TEST-C-BUSQUEDA_PREMIO: Test Cases/TEST-METALDOM/TEST-C-BUSQUEDA_PREMIO
+
+2021-04-14 16:26:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TEST-METALDOM/TEST-C-LOGIN-CORREO"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TEST-METALDOM/TEST-C-LOGIN-CORREO' successfully
+
+2021-04-14 16:26:48 - [TEST_CASE][PASSED] - Test Cases/TEST-METALDOM/TEST-C-LOGIN-CORREO: Test Cases/TEST-METALDOM/TEST-C-LOGIN-CORREO
+
+2021-04-14 16:26:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-04-14 16:26:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-04-14 16:26:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-04-14 16:26:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-04-14 16:26:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-04-14 16:26:49 - [MESSAGE][PASSED] - Current window maximized
+
+2021-04-14 16:26:49 - [TEST_STEP][PASSED] - navigateToUrl("https://metaldomsx.b2clogin.com/metaldomsx.onmicrosoft.com/b2c_1_identity_provider/oauth2/v2.0/authorize?response_type=id_token&scope=openid%20profile&client_id=a8322c90-a407-4733-ab42-7befe6ab3e2c&redirect_uri=https%3A%2F%2Fsxmetaldomfe.azurewebsites.net%2F&state=eyJpZCI6IjFjNmNkMTJkLTY1YjYtNDc4ZS1hMjYwLTc5OTg5ZmRhNzk4MiIsInRzIjoxNjE3OTA2NTgwLCJtZXRob2QiOiJyZWRpcmVjdEludGVyYWN0aW9uIn0%3D&nonce=eb69c372-acb1-4163-8f5b-c25aec8069a5&client_info=1&x-client-SKU=MSAL.JS&x-client-Ver=msal&client-request-id=e9d838ff-741e-4e5e-8e48-e0c967052cf2&response_mode=fragment"): Navigate to 'https://metaldomsx.b2clogin.com/metaldomsx.onmicrosoft.com/b2c_1_identity_provider/oauth2/v2.0/authorize?response_type=id_token&scope=openid%20profile&client_id=a8322c90-a407-4733-ab42-7befe6ab3e2c&redirect_uri=https%3A%2F%2Fsxmetaldomfe.azurewebsites.net%2F&state=eyJpZCI6IjFjNmNkMTJkLTY1YjYtNDc4ZS1hMjYwLTc5OTg5ZmRhNzk4MiIsInRzIjoxNjE3OTA2NTgwLCJtZXRob2QiOiJyZWRpcmVjdEludGVyYWN0aW9uIn0%3D&nonce=eb69c372-acb1-4163-8f5b-c25aec8069a5&client_info=1&x-client-SKU=MSAL.JS&x-client-Ver=msal&client-request-id=e9d838ff-741e-4e5e-8e48-e0c967052cf2&response_mode=fragment' successfully
+
+2021-04-14 16:26:51 - [MESSAGE][PASSED] - Navigate to 'https://metaldomsx.b2clogin.com/metaldomsx.onmicrosoft.com/b2c_1_identity_provider/oauth2/v2.0/authorize?response_type=id_token&scope=openid%20profile&client_id=a8322c90-a407-4733-ab42-7befe6ab3e2c&redirect_uri=https%3A%2F%2Fsxmetaldomfe.azurewebsites.net%2F&state=eyJpZCI6IjFjNmNkMTJkLTY1YjYtNDc4ZS1hMjYwLTc5OTg5ZmRhNzk4MiIsInRzIjoxNjE3OTA2NTgwLCJtZXRob2QiOiJyZWRpcmVjdEludGVyYWN0aW9uIn0%3D&nonce=eb69c372-acb1-4163-8f5b-c25aec8069a5&client_info=1&x-client-SKU=MSAL.JS&x-client-Ver=msal&client-request-id=e9d838ff-741e-4e5e-8e48-e0c967052cf2&response_mode=fragment' successfully
+
+2021-04-14 16:26:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address"), 0): Object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address' is present
+
+2021-04-14 16:26:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:26:52 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address' is present
+
+2021-04-14 16:26:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea"), 0): Object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea' is present
+
+2021-04-14 16:26:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:26:52 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea' is present
+
+2021-04-14 16:26:52 - [TEST_STEP][PASSED] - focus(findTestObject("METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address")): Object: 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address' is focused
+
+2021-04-14 16:26:53 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address' is focused
+
+2021-04-14 16:26:53 - [TEST_STEP][PASSED] - setText(findTestObject("METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address"), USER_EMAIL): Text 'diogenes.polanco@solvex.com.do' is set on object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address'
+
+2021-04-14 16:26:53 - [MESSAGE][PASSED] - Text 'diogenes.polanco@solvex.com.do' is set on object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address'
+
+2021-04-14 16:26:53 - [TEST_STEP][PASSED] - focus(findTestObject("METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea")): Object: 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea' is focused
+
+2021-04-14 16:26:54 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea' is focused
+
+2021-04-14 16:26:54 - [TEST_STEP][PASSED] - setText(findTestObject("METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea"), PASS_EMAIL): Text '@n@05021990' is set on object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea'
+
+2021-04-14 16:26:54 - [MESSAGE][PASSED] - Text '@n@05021990' is set on object 'Object Repository/METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea'
+
+2021-04-14 16:26:54 - [TEST_STEP][PASSED] - click(findTestObject("METALDOM_LOGIN/Page_Sign in/button_Iniciar sesin")): Object: 'Object Repository/METALDOM_LOGIN/Page_Sign in/button_Iniciar sesin' is clicked on
+
+2021-04-14 16:26:55 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_LOGIN/Page_Sign in/button_Iniciar sesin' is clicked on
+
+2021-04-14 16:26:55 - [TEST_STEP][PASSED] - waitForPageLoad(3): Wait for page load successfully
+
+2021-04-14 16:26:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-04-14 16:26:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-04-14 16:26:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-04-14 16:26:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TEST-METALDOM/TEST-C-LOGIN-CORREO' successfully
+
+2021-04-14 16:26:57 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2021-04-14 16:26:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:26:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-04-14 16:26:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-04-14 16:27:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-04-14 16:27:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_OR/BUSCADOR/Page_base-fe/span_Configuraciones de Premios"), 0): Object 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/span_Configuraciones de Premios' is present
+
+2021-04-14 16:27:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:27:02 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/span_Configuraciones de Premios' is present
+
+2021-04-14 16:27:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-04-14 16:27:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-04-14 16:27:05 - [TEST_STEP][PASSED] - click(findTestObject("METALDOM_OR/BUSCADOR/Page_base-fe/span_Configuraciones de Premios")): Object: 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/span_Configuraciones de Premios' is clicked on
+
+2021-04-14 16:27:05 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/span_Configuraciones de Premios' is clicked on
+
+2021-04-14 16:27:05 - [TEST_STEP][PASSED] - for ([rowdata = 1, rowdata <= findTestData("Data Files/DATA METALDOM/BUSQUEDA_PREMIOS").getRowNumbers(), (rowdata++)]): Refresh successfully
+
+2021-04-14 16:27:05 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2021-04-14 16:27:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:27:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-04-14 16:27:05 - [TEST_STEP][PASSED] - scrollToPosition(0, 15): Browser is scrolled to position x = 0, y = 15
+
+2021-04-14 16:27:05 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 15
+
+2021-04-14 16:27:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium"), 0): Object 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium' is present
+
+2021-04-14 16:27:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:27:06 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium' is present
+
+2021-04-14 16:27:06 - [TEST_STEP][PASSED] - focus(findTestObject("METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium")): Object: 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium' is focused
+
+2021-04-14 16:27:07 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium' is focused
+
+2021-04-14 16:27:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium"), findTestData("Data Files/DATA METALDOM/BUSQUEDA_PREMIOS").getValue(1, rowdata)): Text 'AURICULARES' is set on object 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium'
+
+2021-04-14 16:27:07 - [MESSAGE][PASSED] - Text 'AURICULARES' is set on object 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium'
+
+2021-04-14 16:27:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-04-14 16:27:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-04-14 16:27:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium'
+
+2021-04-14 16:27:11 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium'
+
+2021-04-14 16:27:11 - [TEST_STEP][PASSED] - scrollToPosition(0, 20): Browser is scrolled to position x = 0, y = 20
+
+2021-04-14 16:27:11 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 20
+
+2021-04-14 16:27:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-04-14 16:27:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-04-14 16:27:14 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2021-04-14 16:27:14 - [MESSAGE][PASSED] - Refresh successfully
+
+2021-04-14 16:27:14 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2021-04-14 16:27:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:27:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-04-14 16:27:14 - [TEST_STEP][PASSED] - scrollToPosition(0, 15): Browser is scrolled to position x = 0, y = 15
+
+2021-04-14 16:27:14 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 15
+
+2021-04-14 16:27:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium"), 0): Object 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium' is present
+
+2021-04-14 16:27:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:27:15 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium' is present
+
+2021-04-14 16:27:15 - [TEST_STEP][PASSED] - focus(findTestObject("METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium")): Object: 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium' is focused
+
+2021-04-14 16:27:15 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium' is focused
+
+2021-04-14 16:27:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium"), findTestData("Data Files/DATA METALDOM/BUSQUEDA_PREMIOS").getValue(1, rowdata)): Text 'PATINETA' is set on object 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium'
+
+2021-04-14 16:27:16 - [MESSAGE][PASSED] - Text 'PATINETA' is set on object 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium'
+
+2021-04-14 16:27:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-04-14 16:27:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-04-14 16:27:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium'
+
+2021-04-14 16:27:19 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium'
+
+2021-04-14 16:27:19 - [TEST_STEP][PASSED] - scrollToPosition(0, 20): Browser is scrolled to position x = 0, y = 20
+
+2021-04-14 16:27:19 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 20
+
+2021-04-14 16:27:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-04-14 16:27:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-04-14 16:27:22 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2021-04-14 16:27:23 - [MESSAGE][PASSED] - Refresh successfully
+
+2021-04-14 16:27:23 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2021-04-14 16:27:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:27:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-04-14 16:27:23 - [TEST_STEP][PASSED] - scrollToPosition(0, 15): Browser is scrolled to position x = 0, y = 15
+
+2021-04-14 16:27:23 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 15
+
+2021-04-14 16:27:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium"), 0): Object 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium' is present
+
+2021-04-14 16:27:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:27:24 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium' is present
+
+2021-04-14 16:27:24 - [TEST_STEP][PASSED] - focus(findTestObject("METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium")): Object: 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium' is focused
+
+2021-04-14 16:27:24 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium' is focused
+
+2021-04-14 16:27:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium"), findTestData("Data Files/DATA METALDOM/BUSQUEDA_PREMIOS").getValue(1, rowdata)): Text 'Computadora' is set on object 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium'
+
+2021-04-14 16:27:25 - [MESSAGE][PASSED] - Text 'Computadora' is set on object 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium'
+
+2021-04-14 16:27:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-04-14 16:27:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-04-14 16:27:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium'
+
+2021-04-14 16:27:28 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium'
+
+2021-04-14 16:27:28 - [TEST_STEP][PASSED] - scrollToPosition(0, 20): Browser is scrolled to position x = 0, y = 20
+
+2021-04-14 16:27:28 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 20
+
+2021-04-14 16:27:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-04-14 16:27:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-04-14 16:27:31 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2021-04-14 16:27:31 - [MESSAGE][PASSED] - Refresh successfully
+
+2021-04-14 16:27:31 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2021-04-14 16:27:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:27:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-04-14 16:27:31 - [TEST_STEP][PASSED] - scrollToPosition(0, 15): Browser is scrolled to position x = 0, y = 15
+
+2021-04-14 16:27:31 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 15
+
+2021-04-14 16:27:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium"), 0): Object 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium' is present
+
+2021-04-14 16:27:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:27:32 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium' is present
+
+2021-04-14 16:27:32 - [TEST_STEP][PASSED] - focus(findTestObject("METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium")): Object: 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium' is focused
+
+2021-04-14 16:27:33 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium' is focused
+
+2021-04-14 16:27:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium"), findTestData("Data Files/DATA METALDOM/BUSQUEDA_PREMIOS").getValue(1, rowdata)): Text 'Iphone' is set on object 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium'
+
+2021-04-14 16:27:33 - [MESSAGE][PASSED] - Text 'Iphone' is set on object 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium'
+
+2021-04-14 16:27:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-04-14 16:27:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-04-14 16:27:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium'
+
+2021-04-14 16:27:37 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium'
+
+2021-04-14 16:27:37 - [TEST_STEP][PASSED] - scrollToPosition(0, 20): Browser is scrolled to position x = 0, y = 20
+
+2021-04-14 16:27:37 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 20
+
+2021-04-14 16:27:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-04-14 16:27:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-04-14 16:27:40 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2021-04-14 16:27:40 - [MESSAGE][PASSED] - Refresh successfully
+
+2021-04-14 16:27:40 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2021-04-14 16:27:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:27:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-04-14 16:27:40 - [TEST_STEP][PASSED] - scrollToPosition(0, 15): Browser is scrolled to position x = 0, y = 15
+
+2021-04-14 16:27:40 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 15
+
+2021-04-14 16:27:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium"), 0): Object 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium' is present
+
+2021-04-14 16:27:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-14 16:27:41 - [MESSAGE][PASSED] - Object 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium' is present
+
+2021-04-14 16:27:41 - [TEST_STEP][PASSED] - focus(findTestObject("METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium")): Object: 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium' is focused
+
+2021-04-14 16:27:41 - [MESSAGE][PASSED] - Object: 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium' is focused
+
+2021-04-14 16:27:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium"), findTestData("Data Files/DATA METALDOM/BUSQUEDA_PREMIOS").getValue(1, rowdata)): Text 'Tableta' is set on object 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium'
+
+2021-04-14 16:27:42 - [MESSAGE][PASSED] - Text 'Tableta' is set on object 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium'
+
+2021-04-14 16:27:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-04-14 16:27:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-04-14 16:27:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium'
+
+2021-04-14 16:27:45 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/METALDOM_OR/BUSCADOR/Page_base-fe/input_Buscar por nombre_input is-medium'
+
+2021-04-14 16:27:45 - [TEST_STEP][PASSED] - scrollToPosition(0, 20): Browser is scrolled to position x = 0, y = 20
+
+2021-04-14 16:27:45 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 20
+
+2021-04-14 16:27:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-04-14 16:27:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-04-14 16:27:48 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2021-04-14 16:27:48 - [MESSAGE][PASSED] - Refresh successfully
+
+2021-04-14 16:27:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-04-14 16:27:51 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-04-14 16:24:10 - [TEST_SUITE][PASSED] - TEST_S_METALDOM_EV: Test Cases/TEST-METALDOM/TEST-C-BUSQUEDA_PREMIO]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

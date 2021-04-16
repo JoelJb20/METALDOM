@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+
+//LLAMAMOS EL TEST CASE DE INICIO SESION MEDIANTE CORREO PARA PODER VER Y TENER TODAS LA OPCIONES
 WebUI.callTestCase(findTestCase('TEST-METALDOM/TEST-C-LOGIN-CORREO'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForPageLoad(0)
@@ -31,6 +33,8 @@ WebUI.delay(4)
 WebUI.click(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/span_Configuraciones de Premios'))
 
 WebUI.delay(3)
+
+//ESTE CICLO "FOR" NOS AGREGARA UN NUEVO PREMIO POR CADA DATO QUE HAYA EN EL DATA FILE
 
 for (def rowdata = 1; rowdata <= findTestData('Data Files/DATA METALDOM/AGREGAR_PREMIOS').getRowNumbers(); rowdata++) {
     WebUI.click(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/a_Agregar'))
@@ -78,8 +82,11 @@ for (def rowdata = 1; rowdata <= findTestData('Data Files/DATA METALDOM/AGREGAR_
 
     WebUI.setText(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/input_Disponibles_available'), findTestData(
             'Data Files/DATA METALDOM/AGREGAR_PREMIOS').getValue(5, rowdata))
+	
+	//WebUI.focus(  findTestObject('Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/span_Subir foto del premio')  )
 
-    //WebUI.uploadFile(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/span_Subir foto del premio'), GlobalVariable.IMAGEN)
+    //WebUI.uploadFile(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/span_Subir foto del premio'), 'C:\\Users\\joel_\\OneDrive\\Escritorio\\SOLVEX\\auriculares.jpg')
+
     WebUI.delay(3)
 
     WebUI.click(findTestObject('METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/button_Guardar'))

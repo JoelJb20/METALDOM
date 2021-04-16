@@ -1,0 +1,78 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TEST_S_METALDOM_EV,Chrome 89.0.4389.114,,,2021-04-13 13:40:07,2021-04-13 13:44:15,4m - 7.127s,PASSED
+,,,,,,,
+Test Cases/TEST-METALDOM/TEST-C-LOGIN-CORREO,Chrome 89.0.4389.114,Haremos un log in contando con: usuario (EMAIL) y contraseña válidos.,,2021-04-13 13:40:10,2021-04-13 13:40:25,15.261s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.114,,,2021-04-13 13:40:11,2021-04-13 13:40:14,3.173s,PASSED
+maximizeWindow(),Chrome 89.0.4389.114,,,2021-04-13 13:40:14,2021-04-13 13:40:14,0.183s,PASSED
+"navigateToUrl(""https://metaldomsx.b2clogin.com/metaldomsx.onmicrosoft.com/b2c_1_identity_provider/oauth2/v2.0/authorize?response_type=id_token&scope=openid%20profile&client_id=a8322c90-a407-4733-ab42-7befe6ab3e2c&redirect_uri=https%3A%2F%2Fsxmetaldomfe.azurewebsites.net%2F&state=eyJpZCI6IjFjNmNkMTJkLTY1YjYtNDc4ZS1hMjYwLTc5OTg5ZmRhNzk4MiIsInRzIjoxNjE3OTA2NTgwLCJtZXRob2QiOiJyZWRpcmVjdEludGVyYWN0aW9uIn0%3D&nonce=eb69c372-acb1-4163-8f5b-c25aec8069a5&client_info=1&x-client-SKU=MSAL.JS&x-client-Ver=msal&client-request-id=e9d838ff-741e-4e5e-8e48-e0c967052cf2&response_mode=fragment"")",Chrome 89.0.4389.114,,,2021-04-13 13:40:14,2021-04-13 13:40:16,1.549s,PASSED
+"verifyElementPresent(findTestObject(""METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address""), 0)",Chrome 89.0.4389.114,,,2021-04-13 13:40:16,2021-04-13 13:40:17,1.189s,PASSED
+"verifyElementPresent(findTestObject(""METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea""), 0)",Chrome 89.0.4389.114,,,2021-04-13 13:40:17,2021-04-13 13:40:17,0.337s,PASSED
+"focus(findTestObject(""METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address""))",Chrome 89.0.4389.114,,,2021-04-13 13:40:17,2021-04-13 13:40:18,0.397s,PASSED
+"setText(findTestObject(""METALDOM_LOGIN/Page_Sign in/input_Username or email address_Username or email address""), USER_EMAIL)",Chrome 89.0.4389.114,,,2021-04-13 13:40:18,2021-04-13 13:40:22,3.984s,PASSED
+"focus(findTestObject(""METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea""))",Chrome 89.0.4389.114,,,2021-04-13 13:40:22,2021-04-13 13:40:22,0.367s,PASSED
+"setText(findTestObject(""METALDOM_LOGIN/Page_Sign in/input_Olvid su contrasea_Contrasea""), PASS_EMAIL)",Chrome 89.0.4389.114,,,2021-04-13 13:40:22,2021-04-13 13:40:23,0.625s,PASSED
+"click(findTestObject(""METALDOM_LOGIN/Page_Sign in/button_Iniciar sesin""))",Chrome 89.0.4389.114,,,2021-04-13 13:40:23,2021-04-13 13:40:23,0.398s,PASSED
+waitForPageLoad(3),Chrome 89.0.4389.114,,,2021-04-13 13:40:23,2021-04-13 13:40:23,0.184s,PASSED
+delay(2),Chrome 89.0.4389.114,,,2021-04-13 13:40:23,2021-04-13 13:40:25,2.034s,PASSED
+,,,,,,,
+Test Cases/TEST-METALDOM/TEST-C-TIPOS_PREMIOS,Chrome 89.0.4389.114,NAVEGAREMOS A LA PANTALLA TIPOS DE PREMIOS Y AGREGAREMOS 2 TIPOS DE PREMIOS NUEVOS.,,2021-04-13 13:40:25,2021-04-13 13:41:13,47.500s,PASSED
+"callTestCase(findTestCase(""TEST-METALDOM/TEST-C-LOGIN-CORREO""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.114,,,2021-04-13 13:40:26,2021-04-13 13:40:36,10.254s,PASSED
+waitForPageLoad(3),Chrome 89.0.4389.114,,,2021-04-13 13:40:36,2021-04-13 13:40:36,0.031s,PASSED
+delay(6),Chrome 89.0.4389.114,,,2021-04-13 13:40:36,2021-04-13 13:40:42,6.005s,PASSED
+"verifyElementPresent(findTestObject(""METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/span_Tipos de Premios""), 0)",Chrome 89.0.4389.114,,,2021-04-13 13:40:42,2021-04-13 13:40:43,0.982s,PASSED
+delay(3),Chrome 89.0.4389.114,,,2021-04-13 13:40:43,2021-04-13 13:40:46,3.002s,PASSED
+"click(findTestObject(""METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/span_Tipos de Premios""))",Chrome 89.0.4389.114,,,2021-04-13 13:40:46,2021-04-13 13:40:47,0.562s,PASSED
+delay(2),Chrome 89.0.4389.114,,,2021-04-13 13:40:47,2021-04-13 13:40:49,2.003s,PASSED
+"for ([rowdata = 1, rowdata <= findTestData(""Data Files/DATA METALDOM/TIPOS_PREMIOS"").getRowNumbers(), (rowdata++)])",Chrome 89.0.4389.114,,,2021-04-13 13:40:49,2021-04-13 13:41:08,18.846s,PASSED
+"click(findTestObject(""Object Repository/METALDOM_OR/TIPOS_PREMIOS/Page_base-fe/span_Tipos de Premios""))",Chrome 89.0.4389.114,,,2021-04-13 13:41:08,2021-04-13 13:41:08,0.518s,PASSED
+delay(4),Chrome 89.0.4389.114,,,2021-04-13 13:41:08,2021-04-13 13:41:12,4.004s,PASSED
+closeBrowser(),Chrome 89.0.4389.114,,,2021-04-13 13:41:12,2021-04-13 13:41:13,0.725s,PASSED
+,,,,,,,
+Test Cases/TEST-METALDOM/TEST-C-AGREGAR_PREMIO,Chrome 89.0.4389.114,NAVEGAREMOS A LA PANTALLA DE “CONFIGURACIONES DE PREMIO”EN LA CUAL AGREGAREMOS UN PREMIO Y VALIDAREMOS QUE SE AGREGUE CORRECTAMENTE,,2021-04-13 13:41:13,2021-04-13 13:42:31,1m - 17.741s,PASSED
+"callTestCase(findTestCase(""TEST-METALDOM/TEST-C-LOGIN-CORREO""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.114,,,2021-04-13 13:41:13,2021-04-13 13:41:23,9.585s,PASSED
+waitForPageLoad(0),Chrome 89.0.4389.114,,,2021-04-13 13:41:23,2021-04-13 13:41:23,0.015s,PASSED
+delay(3),Chrome 89.0.4389.114,,,2021-04-13 13:41:23,2021-04-13 13:41:26,3.003s,PASSED
+"verifyElementPresent(findTestObject(""METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/span_Configuraciones de Premios""), 0)",Chrome 89.0.4389.114,,,2021-04-13 13:41:26,2021-04-13 13:41:27,0.583s,PASSED
+delay(4),Chrome 89.0.4389.114,,,2021-04-13 13:41:27,2021-04-13 13:41:31,4.004s,PASSED
+"click(findTestObject(""METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/span_Configuraciones de Premios""))",Chrome 89.0.4389.114,,,2021-04-13 13:41:31,2021-04-13 13:41:31,0.592s,PASSED
+delay(3),Chrome 89.0.4389.114,,,2021-04-13 13:41:31,2021-04-13 13:41:34,3.003s,PASSED
+"for ([rowdata = 1, rowdata <= findTestData(""Data Files/DATA METALDOM/AGREGAR_PREMIOS"").getRowNumbers(), (rowdata++)])",Chrome 89.0.4389.114,,,2021-04-13 13:41:34,2021-04-13 13:42:24,49.575s,PASSED
+"click(findTestObject(""Object Repository/METALDOM_OR/AGREGAR_PREMIO_OR/Page_base-fe/span_Configuraciones de Premios""))",Chrome 89.0.4389.114,,,2021-04-13 13:42:24,2021-04-13 13:42:25,1.173s,PASSED
+"scrollToPosition(0, 40)",Chrome 89.0.4389.114,,,2021-04-13 13:42:25,2021-04-13 13:42:25,0.017s,PASSED
+delay(5),Chrome 89.0.4389.114,,,2021-04-13 13:42:25,2021-04-13 13:42:30,5.000s,PASSED
+closeBrowser(),Chrome 89.0.4389.114,,,2021-04-13 13:42:30,2021-04-13 13:42:31,0.716s,PASSED
+,,,,,,,
+Test Cases/TEST-METALDOM/TEST-C-CONFIGURAR_PUNTOS,Chrome 89.0.4389.114,HAREMOS UNA CONFIGURACION DE LOS PUNTOS QUE RECIBIRAN LOS CLIENTES POR TONELADAS,,2021-04-13 13:42:31,2021-04-13 13:43:11,40.473s,PASSED
+"callTestCase(findTestCase(""TEST-METALDOM/TEST-C-LOGIN-CORREO""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.114,,,2021-04-13 13:42:31,2021-04-13 13:42:40,8.905s,PASSED
+"verifyElementPresent(findTestObject(""METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/span_Configuraciones de Puntos""), 0)",Chrome 89.0.4389.114,,,2021-04-13 13:42:40,2021-04-13 13:42:45,5.316s,PASSED
+waitForPageLoad(0),Chrome 89.0.4389.114,,,2021-04-13 13:42:45,2021-04-13 13:42:45,0.015s,PASSED
+delay(4),Chrome 89.0.4389.114,,,2021-04-13 13:42:45,2021-04-13 13:42:49,4.002s,PASSED
+"click(findTestObject(""METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/span_Configuraciones de Puntos""))",Chrome 89.0.4389.114,,,2021-04-13 13:42:49,2021-04-13 13:42:50,0.566s,PASSED
+"click(findTestObject(""METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/a_Agregar""))",Chrome 89.0.4389.114,,,2021-04-13 13:42:50,2021-04-13 13:42:51,1.025s,PASSED
+"scrollToElement(findTestObject(""METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Valor de Toneladas_tonsValue""), 0)",Chrome 89.0.4389.114,,,2021-04-13 13:42:51,2021-04-13 13:42:52,0.554s,PASSED
+"focus(findTestObject(""METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Nombre_name""))",Chrome 89.0.4389.114,,,2021-04-13 13:42:52,2021-04-13 13:42:52,0.371s,PASSED
+"setText(findTestObject(""METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Nombre_name""), PUNTOS_NOMBRE)",Chrome 89.0.4389.114,,,2021-04-13 13:42:52,2021-04-13 13:42:53,0.870s,PASSED
+"focus(findTestObject(""METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Descripcin_description""))",Chrome 89.0.4389.114,,,2021-04-13 13:42:53,2021-04-13 13:42:53,0.365s,PASSED
+"setText(findTestObject(""METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Descripcin_description""), PUNTOS_DESCRIPCION)",Chrome 89.0.4389.114,,,2021-04-13 13:42:53,2021-04-13 13:42:54,0.751s,PASSED
+"focus(findTestObject(""METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Valor de Puntos_pointsValue""))",Chrome 89.0.4389.114,,,2021-04-13 13:42:54,2021-04-13 13:42:54,0.362s,PASSED
+"setText(findTestObject(""METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Valor de Puntos_pointsValue""), PUNTOS_VALOR)",Chrome 89.0.4389.114,,,2021-04-13 13:42:54,2021-04-13 13:42:55,0.622s,PASSED
+"focus(findTestObject(""METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Valor de Toneladas_tonsValue""))",Chrome 89.0.4389.114,,,2021-04-13 13:42:55,2021-04-13 13:42:55,0.353s,PASSED
+"setText(findTestObject(""METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Valor de Toneladas_tonsValue""), PUNTOS_TONELADAS)",Chrome 89.0.4389.114,,,2021-04-13 13:42:55,2021-04-13 13:42:56,0.616s,PASSED
+"selectOptionByIndex(findTestObject(""METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/select_Tipos de espiracin  Vencimiento por das  Vencimiento por meses  Vencimiento por aos""), 2)",Chrome 89.0.4389.114,,,2021-04-13 13:42:56,2021-04-13 13:42:57,0.878s,PASSED
+"focus(findTestObject(""METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Valor de tipo de expiracion_expirationTypeValue""))",Chrome 89.0.4389.114,,,2021-04-13 13:42:57,2021-04-13 13:42:57,0.463s,PASSED
+"setText(findTestObject(""METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/input_Valor de tipo de expiracion_expirationTypeValue""), PUNTOS_TIPOS_EXP)",Chrome 89.0.4389.114,,,2021-04-13 13:42:57,2021-04-13 13:42:58,0.617s,PASSED
+delay(3),Chrome 89.0.4389.114,,,2021-04-13 13:42:58,2021-04-13 13:43:01,3.002s,PASSED
+delay(4),Chrome 89.0.4389.114,,,2021-04-13 13:43:01,2021-04-13 13:43:05,4.002s,PASSED
+delay(3),Chrome 89.0.4389.114,,,2021-04-13 13:43:05,2021-04-13 13:43:08,3.002s,PASSED
+"click(findTestObject(""METALDOM_OR/CONFIGURACION_PUNTOS_OR/Page_base-fe/span_Guardar""))",Chrome 89.0.4389.114,,,2021-04-13 13:43:08,2021-04-13 13:43:08,0.377s,PASSED
+delay(3),Chrome 89.0.4389.114,,,2021-04-13 13:43:08,2021-04-13 13:43:11,3.001s,PASSED
+,,,,,,,
+Test Cases/TEST-METALDOM/TEST-C-BUSQUEDA_PREMIO,Chrome 89.0.4389.114,HAREMOS UN FOR LOOP PARA QUE ESTE BUSQUE DIFERENTES PREMIOS Y QUE VAYAMOS VIENDO LOS RESULTADOS,,2021-04-13 13:43:11,2021-04-13 13:44:15,1m - 3.376s,PASSED
+"callTestCase(findTestCase(""TEST-METALDOM/TEST-C-LOGIN-CORREO""), [:], STOP_ON_FAILURE)",Chrome 89.0.4389.114,,,2021-04-13 13:43:12,2021-04-13 13:43:21,9.454s,PASSED
+waitForPageLoad(0),Chrome 89.0.4389.114,,,2021-04-13 13:43:21,2021-04-13 13:43:21,0.014s,PASSED
+delay(3),Chrome 89.0.4389.114,,,2021-04-13 13:43:21,2021-04-13 13:43:24,3.001s,PASSED
+"verifyElementPresent(findTestObject(""METALDOM_OR/BUSCADOR/Page_base-fe/span_Configuraciones de Premios""), 0)",Chrome 89.0.4389.114,,,2021-04-13 13:43:24,2021-04-13 13:43:25,1.168s,PASSED
+delay(3),Chrome 89.0.4389.114,,,2021-04-13 13:43:25,2021-04-13 13:43:28,3.001s,PASSED
+"click(findTestObject(""METALDOM_OR/BUSCADOR/Page_base-fe/span_Configuraciones de Premios""))",Chrome 89.0.4389.114,,,2021-04-13 13:43:28,2021-04-13 13:43:29,0.551s,PASSED
+"for ([rowdata = 1, rowdata <= findTestData(""Data Files/DATA METALDOM/BUSQUEDA_PREMIOS"").getRowNumbers(), (rowdata++)])",Chrome 89.0.4389.114,,,2021-04-13 13:43:29,2021-04-13 13:44:12,42.759s,PASSED
+delay(3),Chrome 89.0.4389.114,,,2021-04-13 13:44:12,2021-04-13 13:44:15,3.003s,PASSED

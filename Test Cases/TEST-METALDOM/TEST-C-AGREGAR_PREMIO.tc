@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>2b57e2ee-61b2-486f-866b-6026ffff2bb2</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\Users\\joel_\\OneDrive\\Escritorio\\SOLVEX\\auriculares.jpg\r\n'</defaultValue>
+      <description></description>
+      <id>4f1f6c92-b7be-4ad8-a307-aabcd62d9e07</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
 </TestCaseEntity>

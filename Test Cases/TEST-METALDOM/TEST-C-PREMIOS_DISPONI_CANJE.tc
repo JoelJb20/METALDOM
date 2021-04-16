@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>NAVEGAREMOS A LA VENTANA DE “PREMIOS DISPONIBLES” Y AGREGAREMOS UN TEST CASE QUE SERA EL 3.1 PARA SOLICITAR UN CANJE.</description>
-   <name>TEST-C-PREMIOS_DISPONI</name>
+   <name>TEST-C-PREMIOS_DISPONI_CANJE</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>76fe5cc1-54ab-48c3-915c-526cb5bed8bf</testCaseGuid>
